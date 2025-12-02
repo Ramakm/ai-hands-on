@@ -40,6 +40,20 @@ Whether you're a beginner or an engineer levelling up, this repo gives you the c
 - OCR pipeline and utilities
 - Preprocessing images and extracting text
 
+## Books
+
+As someone who loves to read books, I have found the following books to be the best for learning AI. Some books PDF are added some are not added. Will add once I get the PDFs.
+
+- `SQL Cookbook` by Anthony Molinaro
+- `AI Engineering` by Chip Huyen
+- `Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow` by Aurélien Géron
+- `Machine Learning With Python Cookbook` by Max Kuznetsov
+- `Deep Learning` by Ian Goodfellow, Yoshua Bengio, and Aaron Courville
+- `Pattern Recognition and Machine Learning` by Christopher Bishop
+- `Neural Networks and Deep Learning` by Michael Nielsen
+- `The Elements of Statistical Learning` by Trevor Hastie, Robert Tibshirani, and Jerome Friedman
+- `Pattern Recognition and Machine Learning` by Christopher Bishop
+
 ## Learning Path
 
 For a recommended step-by-step progression through the materials, see the Learning Path:
