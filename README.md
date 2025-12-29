@@ -6,16 +6,16 @@
 ![Contributors](https://img.shields.io/github/contributors/Ramakm/ai-hands-on?style=flat-square)
 ![License](https://img.shields.io/github/license/Ramakm/ai-hands-on?style=flat-square)
 
-A complete, hands-on to becoming a good AI Engineer.
+A complete, hands-on guide to becoming an AI Engineer.
 
 This repository is designed to help you learn AI from first principles, build real neural networks, and understand modern LLM systems end-to-end.
 You'll progress through math, PyTorch, deep learning, transformers, RAG, and OCR — with clean, intuitive Jupyter notebooks guiding you at every step.
 
 Whether you're a beginner or an engineer levelling up, this repo gives you the clarity, structure, and intuition needed to build real AI systems.
 
-#### ⭐ Star This Repo, If you learned something new, a star would be truly appreciated.
+#### ⭐ Star This Repo
 
-<img width="1200" height="500" alt="Electronica Tech Needs GoDaddy Store Image" src="https://github.com/user-attachments/assets/28bde788-0905-460e-af4b-ad5e9a5450ce" />
+If you learn something useful, a star is appreciated.
 
 ## Repository Structure
 
@@ -30,7 +30,7 @@ Whether you're a beginner or an engineer levelling up, this repo gives you the c
 - Indexing, slicing, and concatenating tensors
 - Special tensor creation functions
 
-### 3. Neural Networks
+### 3. Neural-Network(NN)
 - Building neurons, layers, and networks from scratch
 - Normalization techniques (RMSNorm)
 - Activation functions
@@ -52,17 +52,14 @@ Whether you're a beginner or an engineer levelling up, this repo gives you the c
 
 ## Books
 
-As someone who loves to read books, I have found the following books to be the best for learning AI. Some books PDF are added some are not added. Will add once I get the PDFs.
+Recommended reading to deepen your understanding (not included):
 
-- `SQL Cookbook` by Anthony Molinaro
 - `AI Engineering` by Chip Huyen
 - `Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow` by Aurélien Géron
-- `Machine Learning With Python Cookbook` by Max Kuznetsov
 - `Deep Learning` by Ian Goodfellow, Yoshua Bengio, and Aaron Courville
-- `Pattern Recognition and Machine Learning` by Christopher Bishop
-- `Neural Networks and Deep Learning` by Michael Nielsen
 - `The Elements of Statistical Learning` by Trevor Hastie, Robert Tibshirani, and Jerome Friedman
-- `Pattern Recognition and Machine Learning` by Christopher Bishop
+- `Neural Networks and Deep Learning` by Michael Nielsen
+- `SQL Cookbook` by Anthony Molinaro
 
 ## Learning Path
 
@@ -77,6 +74,8 @@ Install dependencies with:
 pip install -r requirements.txt
 ```
 
+Some subfolders (for example `5.RAG/` and `6.OCR/`) include their own `requirements.txt` with additional dependencies.
+
 ## Usage
 
 Recommended workflow:
@@ -90,7 +89,7 @@ Recommended workflow:
 2. Work through notebooks in order:
    - `1.Math/`
    - `2.PyTorch/`
-   - `3.Neural-Networks/`
+   - `3.Neural-Network(NN)/`
    - `4.Transformer/`
 
 3. Folder to run separately:
