@@ -34,7 +34,7 @@ class TestProviderPresets(unittest.TestCase):
     def test_minimax_preset_fields(self):
         p = PROVIDER_PRESETS["minimax"]
         self.assertEqual(p["base_url"], "https://api.minimax.io/v1")
-        self.assertEqual(p["default_model"], "MiniMax-M2.7")
+        self.assertEqual(p["default_model"], "MiniMax-M3")
         self.assertEqual(p["env_key"], "MINIMAX_API_KEY")
 
     def test_atlas_cloud_preset_fields(self):
@@ -119,7 +119,7 @@ class TestGetLLMConfig(unittest.TestCase):
         cfg = get_llm_config(provider="minimax")
         self.assertIsNotNone(cfg)
         self.assertEqual(cfg.provider, "minimax")
-        self.assertEqual(cfg.model, "MiniMax-M2.7")
+        self.assertEqual(cfg.model, "MiniMax-M3")
         self.assertEqual(cfg.base_url, "https://api.minimax.io/v1")
 
     @patch.dict(os.environ, {"OPENAI_API_KEY": "sk-test"}, clear=False)
@@ -261,7 +261,7 @@ class TestChatCompletion(unittest.TestCase):
                 api_key=cfg.api_key, base_url=cfg.base_url
             )
             call_kwargs = mock_client.chat.completions.create.call_args[1]
-            self.assertEqual(call_kwargs["model"], "MiniMax-M2.7")
+            self.assertEqual(call_kwargs["model"], "MiniMax-M3")
             self.assertEqual(call_kwargs["temperature"], 0.5)
             self.assertEqual(call_kwargs["max_tokens"], 512)
 

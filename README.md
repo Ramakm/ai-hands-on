@@ -46,7 +46,7 @@ If you learn something useful, a star is appreciated.
 - Building RAG pipelines end to end
 - Indexing, retrieval, chunking strategies
 - Integrations with embedding models and vector stores
-- Cloud LLM support: [Atlas Cloud](https://www.atlascloud.ai/?utm_source=github&utm_medium=link&utm_campaign=ai-hands-on) (`deepseek-ai/DeepSeek-V3-0324` by default), [MiniMax](https://www.minimax.io/) (M2.7), OpenAI, or any OpenAI-compatible API for richer answer generation
+- Cloud LLM support: [Atlas Cloud](https://www.atlascloud.ai/?utm_source=github&utm_medium=link&utm_campaign=ai-hands-on) (`deepseek-ai/DeepSeek-V3-0324` by default), [MiniMax](https://www.minimax.io/) (M3), OpenAI, or any OpenAI-compatible API for richer answer generation
 
 ### 6. Optical Character Recognition (OCR)
 - OCR pipeline and utilities

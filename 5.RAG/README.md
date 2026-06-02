@@ -10,7 +10,7 @@ CyberSec RAG Analyzer is a Retrieval-Augmented Generation (RAG) application for 
 - **Dual-source search**: Query both pre-indexed documents and newly uploaded PDFs.
 - **Semantic retrieval**: FAISS vector search over SentenceTransformer embeddings.
 - **Grounded answers**: BART or a cloud LLM generates answers using retrieved context, with transparent source snippets.
-- **Multi-provider LLM**: Choose between local BART, [Atlas Cloud](https://www.atlascloud.ai/?utm_source=github&utm_medium=link&utm_campaign=ai-hands-on) (`deepseek-ai/DeepSeek-V3-0324` by default), [MiniMax](https://www.minimax.io/) (M2.7), or OpenAI for answer generation — auto-detected from environment variables.
+- **Multi-provider LLM**: Choose between local BART, [Atlas Cloud](https://www.atlascloud.ai/?utm_source=github&utm_medium=link&utm_campaign=ai-hands-on) (`deepseek-ai/DeepSeek-V3-0324` by default), [MiniMax](https://www.minimax.io/) (M3), or OpenAI for answer generation — auto-detected from environment variables.
 - **Local processing**: Runs fully offline with BART, or opt into a cloud LLM for richer answers.
 - **Robust error handling**: Handles missing indices, large files, scanned PDFs, and model-loading edge cases.
 
@@ -84,7 +84,7 @@ generation instead of local BART:
 | Provider | Environment Variable | Default Model |
 |----------|---------------------|---------------|
 | [Atlas Cloud](https://www.atlascloud.ai/?utm_source=github&utm_medium=link&utm_campaign=ai-hands-on) | `ATLAS_CLOUD_API_KEY` | deepseek-ai/DeepSeek-V3-0324 |
-| [MiniMax](https://www.minimax.io/) | `MINIMAX_API_KEY` | MiniMax-M2.7 |
+| [MiniMax](https://www.minimax.io/) | `MINIMAX_API_KEY` | MiniMax-M3 |
 | OpenAI | `OPENAI_API_KEY` | gpt-4o-mini |
 
 ```bash
