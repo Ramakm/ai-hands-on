@@ -104,6 +104,23 @@ The bundled default model is `deepseek-ai/DeepSeek-V3-0324`, and you can
 override it with `ATLAS_CLOUD_MODEL` when your Atlas account exposes a
 different preferred model ID.
 
+Validated Atlas chat model pool examples for `ATLAS_CLOUD_MODEL` include:
+
+- `deepseek-ai/DeepSeek-V3-0324`
+- `deepseek-ai/deepseek-r1-0528`
+- `moonshotai/Kimi-K2-Instruct`
+- `Qwen/Qwen3-Coder`
+- `google/gemini-2.5-flash`
+- `openai/gpt-5.2-chat`
+- `anthropic/claude-opus-4.5-20251101`
+- `zai-org/glm-4.7`
+- `minimaxai/minimax-m2.1`
+- `xai/grok-4-0709`
+
+If you want broader Atlas coverage, the validated rollout uses a shared
+50-model Atlas chat pool and this app can adopt any of those model IDs through
+the same `ATLAS_CLOUD_MODEL` override.
+
 When an API key is detected the sidebar will default to the corresponding
 cloud provider. You can always switch back to **Local (BART)** from the
 sidebar dropdown.
