@@ -1,0 +1,9 @@
+# Raw dataset — download from Kaggle (see README)
+Data/
+*.csv
+
+# Notebook / Python cruft
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+.DS_Store
