@@ -1,0 +1,4502 @@
+[
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Asus ROG Strix</h2><span class='price'>$1106</span><span class='category'>electronics</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "Asus ROG Strix",
+      "price": "$1106",
+      "category": "electronics",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>iPad Air</h2><span class='price'>$1344</span><span class='category'>audio</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "iPad Air",
+      "price": "$1344",
+      "category": "audio",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Google Pixel 7</h2><span class='price'>$712</span><span class='category'>smartphones</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Google Pixel 7",
+      "price": "$712",
+      "category": "smartphones",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Bose QuietComfort 45</h2><span class='price'>$2429</span><span class='category'>audio</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Bose QuietComfort 45",
+      "price": "$2429",
+      "category": "audio",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Google Pixel 7</h2><span class='price'>$2429</span><span class='category'>electronics</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Google Pixel 7",
+      "price": "$2429",
+      "category": "electronics",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Razer DeathAdder V2</h2><span class='price'>$1277</span><span class='category'>audio</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "Razer DeathAdder V2",
+      "price": "$1277",
+      "category": "audio",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nintendo Switch</h2><span class='price'>$585</span><span class='category'>electronics</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Nintendo Switch",
+      "price": "$585",
+      "category": "electronics",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>MacBook Pro 14</h2><span class='price'>$1002</span><span class='category'>electronics</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "MacBook Pro 14",
+      "price": "$1002",
+      "category": "electronics",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Fitbit Charge 5</h2><span class='price'>$2004</span><span class='category'>laptops</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "Fitbit Charge 5",
+      "price": "$2004",
+      "category": "laptops",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Samsung Galaxy S23</h2><span class='price'>$563</span><span class='category'>fitness</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Samsung Galaxy S23",
+      "price": "$563",
+      "category": "fitness",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Canon EOS R</h2><span class='price'>$2004</span><span class='category'>audio</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "Canon EOS R",
+      "price": "$2004",
+      "category": "audio",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Canon EOS R</h2><span class='price'>$2396</span><span class='category'>smartphones</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "Canon EOS R",
+      "price": "$2396",
+      "category": "smartphones",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nintendo Switch</h2><span class='price'>$915</span><span class='category'>cameras</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Nintendo Switch",
+      "price": "$915",
+      "category": "cameras",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Fitbit Charge 5</h2><span class='price'>$1162</span><span class='category'>audio</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "Fitbit Charge 5",
+      "price": "$1162",
+      "category": "audio",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nintendo Switch</h2><span class='price'>$915</span><span class='category'>drones</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Nintendo Switch",
+      "price": "$915",
+      "category": "drones",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Canon EOS R</h2><span class='price'>$1708</span><span class='category'>gaming</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Canon EOS R",
+      "price": "$1708",
+      "category": "gaming",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>PlayStation 5</h2><span class='price'>$454</span><span class='category'>cameras</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "PlayStation 5",
+      "price": "$454",
+      "category": "cameras",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>PlayStation 5</h2><span class='price'>$819</span><span class='category'>audio</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "PlayStation 5",
+      "price": "$819",
+      "category": "audio",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>HP Envy 15</h2><span class='price'>$299</span><span class='category'>cameras</span><span class='brand'>Microsoft</span></div>",
+    "output": {
+      "name": "HP Envy 15",
+      "price": "$299",
+      "category": "cameras",
+      "manufacturer": "Microsoft"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Google Pixel 7</h2><span class='price'>$2102</span><span class='category'>audio</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "Google Pixel 7",
+      "price": "$2102",
+      "category": "audio",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Kindle Paperwhite</h2><span class='price'>$2004</span><span class='category'>cameras</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Kindle Paperwhite",
+      "price": "$2004",
+      "category": "cameras",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Bose QuietComfort 45</h2><span class='price'>$395</span><span class='category'>electronics</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Bose QuietComfort 45",
+      "price": "$395",
+      "category": "electronics",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Google Pixel 7</h2><span class='price'>$979</span><span class='category'>laptops</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Google Pixel 7",
+      "price": "$979",
+      "category": "laptops",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>DJI Mini 3 Pro</h2><span class='price'>$384</span><span class='category'>cameras</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "DJI Mini 3 Pro",
+      "price": "$384",
+      "category": "cameras",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>iPad Air</h2><span class='price'>$677</span><span class='category'>cameras</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "iPad Air",
+      "price": "$677",
+      "category": "cameras",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>PlayStation 5</h2><span class='price'>$1793</span><span class='category'>electronics</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "PlayStation 5",
+      "price": "$1793",
+      "category": "electronics",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Google Pixel 7</h2><span class='price'>$951</span><span class='category'>drones</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "Google Pixel 7",
+      "price": "$951",
+      "category": "drones",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>MacBook Pro 14</h2><span class='price'>$1685</span><span class='category'>audio</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "MacBook Pro 14",
+      "price": "$1685",
+      "category": "audio",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>MacBook Pro 14</h2><span class='price'>$453</span><span class='category'>gaming</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "MacBook Pro 14",
+      "price": "$453",
+      "category": "gaming",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Google Pixel 7</h2><span class='price'>$380</span><span class='category'>fitness</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "Google Pixel 7",
+      "price": "$380",
+      "category": "fitness",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>HP Envy 15</h2><span class='price'>$2098</span><span class='category'>smartphones</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "HP Envy 15",
+      "price": "$2098",
+      "category": "smartphones",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>iPad Air</h2><span class='price'>$1277</span><span class='category'>drones</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "iPad Air",
+      "price": "$1277",
+      "category": "drones",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Logitech MX Master 3</h2><span class='price'>$384</span><span class='category'>cameras</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "Logitech MX Master 3",
+      "price": "$384",
+      "category": "cameras",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Fitbit Charge 5</h2><span class='price'>$585</span><span class='category'>smartphones</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Fitbit Charge 5",
+      "price": "$585",
+      "category": "smartphones",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nintendo Switch</h2><span class='price'>$2102</span><span class='category'>audio</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Nintendo Switch",
+      "price": "$2102",
+      "category": "audio",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Asus ROG Strix</h2><span class='price'>$819</span><span class='category'>drones</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "Asus ROG Strix",
+      "price": "$819",
+      "category": "drones",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Bose QuietComfort 45</h2><span class='price'>$2098</span><span class='category'>audio</span><span class='brand'>Microsoft</span></div>",
+    "output": {
+      "name": "Bose QuietComfort 45",
+      "price": "$2098",
+      "category": "audio",
+      "manufacturer": "Microsoft"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Apple Watch</h2><span class='price'>$2102</span><span class='category'>fitness</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Apple Watch",
+      "price": "$2102",
+      "category": "fitness",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>HP Envy 15</h2><span class='price'>$1576</span><span class='category'>smartphones</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "HP Envy 15",
+      "price": "$1576",
+      "category": "smartphones",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Logitech MX Master 3</h2><span class='price'>$1685</span><span class='category'>laptops</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "Logitech MX Master 3",
+      "price": "$1685",
+      "category": "laptops",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Fitbit Charge 5</h2><span class='price'>$1277</span><span class='category'>audio</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "Fitbit Charge 5",
+      "price": "$1277",
+      "category": "audio",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Bose QuietComfort 45</h2><span class='price'>$2100</span><span class='category'>laptops</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Bose QuietComfort 45",
+      "price": "$2100",
+      "category": "laptops",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Asus ROG Strix</h2><span class='price'>$448</span><span class='category'>electronics</span><span class='brand'>Microsoft</span></div>",
+    "output": {
+      "name": "Asus ROG Strix",
+      "price": "$448",
+      "category": "electronics",
+      "manufacturer": "Microsoft"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Sony WH-1000XM5</h2><span class='price'>$2492</span><span class='category'>fitness</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "Sony WH-1000XM5",
+      "price": "$2492",
+      "category": "fitness",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>DJI Mini 3 Pro</h2><span class='price'>$650</span><span class='category'>smartphones</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "DJI Mini 3 Pro",
+      "price": "$650",
+      "category": "smartphones",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Asus ROG Strix</h2><span class='price'>$1447</span><span class='category'>cameras</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Asus ROG Strix",
+      "price": "$1447",
+      "category": "cameras",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Fitbit Charge 5</h2><span class='price'>$979</span><span class='category'>gaming</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "Fitbit Charge 5",
+      "price": "$979",
+      "category": "gaming",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>DJI Mini 3 Pro</h2><span class='price'>$712</span><span class='category'>drones</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "DJI Mini 3 Pro",
+      "price": "$712",
+      "category": "drones",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>HP Envy 15</h2><span class='price'>$384</span><span class='category'>drones</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "HP Envy 15",
+      "price": "$384",
+      "category": "drones",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Google Pixel 7</h2><span class='price'>$585</span><span class='category'>audio</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "Google Pixel 7",
+      "price": "$585",
+      "category": "audio",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Xbox Series X</h2><span class='price'>$1403</span><span class='category'>audio</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "Xbox Series X",
+      "price": "$1403",
+      "category": "audio",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>DJI Mini 3 Pro</h2><span class='price'>$1793</span><span class='category'>smartphones</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "DJI Mini 3 Pro",
+      "price": "$1793",
+      "category": "smartphones",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Logitech MX Master 3</h2><span class='price'>$2061</span><span class='category'>laptops</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "Logitech MX Master 3",
+      "price": "$2061",
+      "category": "laptops",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Samsung Galaxy S23</h2><span class='price'>$258</span><span class='category'>electronics</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Samsung Galaxy S23",
+      "price": "$258",
+      "category": "electronics",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Bose QuietComfort 45</h2><span class='price'>$650</span><span class='category'>fitness</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Bose QuietComfort 45",
+      "price": "$650",
+      "category": "fitness",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Bose QuietComfort 45</h2><span class='price'>$979</span><span class='category'>fitness</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Bose QuietComfort 45",
+      "price": "$979",
+      "category": "fitness",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Google Pixel 7</h2><span class='price'>$1106</span><span class='category'>gaming</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Google Pixel 7",
+      "price": "$1106",
+      "category": "gaming",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Xbox Series X</h2><span class='price'>$1344</span><span class='category'>audio</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Xbox Series X",
+      "price": "$1344",
+      "category": "audio",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Fitbit Charge 5</h2><span class='price'>$1708</span><span class='category'>electronics</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "Fitbit Charge 5",
+      "price": "$1708",
+      "category": "electronics",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Dell XPS 13</h2><span class='price'>$2061</span><span class='category'>smartphones</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Dell XPS 13",
+      "price": "$2061",
+      "category": "smartphones",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>DJI Mini 3 Pro</h2><span class='price'>$1162</span><span class='category'>gaming</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "DJI Mini 3 Pro",
+      "price": "$1162",
+      "category": "gaming",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nintendo Switch</h2><span class='price'>$1086</span><span class='category'>smartphones</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Nintendo Switch",
+      "price": "$1086",
+      "category": "smartphones",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Apple Watch</h2><span class='price'>$258</span><span class='category'>audio</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "Apple Watch",
+      "price": "$258",
+      "category": "audio",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Apple Watch</h2><span class='price'>$1162</span><span class='category'>gaming</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Apple Watch",
+      "price": "$1162",
+      "category": "gaming",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>HP Envy 15</h2><span class='price'>$1403</span><span class='category'>cameras</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "HP Envy 15",
+      "price": "$1403",
+      "category": "cameras",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>MacBook Pro 14</h2><span class='price'>$650</span><span class='category'>fitness</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "MacBook Pro 14",
+      "price": "$650",
+      "category": "fitness",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nikon Z6 II</h2><span class='price'>$1344</span><span class='category'>cameras</span><span class='brand'>Microsoft</span></div>",
+    "output": {
+      "name": "Nikon Z6 II",
+      "price": "$1344",
+      "category": "cameras",
+      "manufacturer": "Microsoft"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Xbox Series X</h2><span class='price'>$650</span><span class='category'>cameras</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Xbox Series X",
+      "price": "$650",
+      "category": "cameras",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Apple Watch</h2><span class='price'>$1688</span><span class='category'>drones</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "Apple Watch",
+      "price": "$1688",
+      "category": "drones",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Razer DeathAdder V2</h2><span class='price'>$453</span><span class='category'>laptops</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Razer DeathAdder V2",
+      "price": "$453",
+      "category": "laptops",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Dell XPS 13</h2><span class='price'>$979</span><span class='category'>gaming</span><span class='brand'>Microsoft</span></div>",
+    "output": {
+      "name": "Dell XPS 13",
+      "price": "$979",
+      "category": "gaming",
+      "manufacturer": "Microsoft"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nintendo Switch</h2><span class='price'>$585</span><span class='category'>laptops</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "Nintendo Switch",
+      "price": "$585",
+      "category": "laptops",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Logitech MX Master 3</h2><span class='price'>$258</span><span class='category'>cameras</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "Logitech MX Master 3",
+      "price": "$258",
+      "category": "cameras",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Xbox Series X</h2><span class='price'>$979</span><span class='category'>cameras</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "Xbox Series X",
+      "price": "$979",
+      "category": "cameras",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Dell XPS 13</h2><span class='price'>$1447</span><span class='category'>drones</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "Dell XPS 13",
+      "price": "$1447",
+      "category": "drones",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Sony WH-1000XM5</h2><span class='price'>$1194</span><span class='category'>gaming</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "Sony WH-1000XM5",
+      "price": "$1194",
+      "category": "gaming",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Google Pixel 7</h2><span class='price'>$534</span><span class='category'>smartphones</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "Google Pixel 7",
+      "price": "$534",
+      "category": "smartphones",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Xbox Series X</h2><span class='price'>$1344</span><span class='category'>drones</span><span class='brand'>Microsoft</span></div>",
+    "output": {
+      "name": "Xbox Series X",
+      "price": "$1344",
+      "category": "drones",
+      "manufacturer": "Microsoft"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Canon EOS R</h2><span class='price'>$1688</span><span class='category'>fitness</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Canon EOS R",
+      "price": "$1688",
+      "category": "fitness",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>iPad Air</h2><span class='price'>$819</span><span class='category'>smartphones</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "iPad Air",
+      "price": "$819",
+      "category": "smartphones",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Kindle Paperwhite</h2><span class='price'>$2325</span><span class='category'>smartphones</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "Kindle Paperwhite",
+      "price": "$2325",
+      "category": "smartphones",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Asus ROG Strix</h2><span class='price'>$395</span><span class='category'>smartphones</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "Asus ROG Strix",
+      "price": "$395",
+      "category": "smartphones",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>DJI Mini 3 Pro</h2><span class='price'>$1086</span><span class='category'>smartphones</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "DJI Mini 3 Pro",
+      "price": "$1086",
+      "category": "smartphones",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Xbox Series X</h2><span class='price'>$2396</span><span class='category'>cameras</span><span class='brand'>Microsoft</span></div>",
+    "output": {
+      "name": "Xbox Series X",
+      "price": "$2396",
+      "category": "cameras",
+      "manufacturer": "Microsoft"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Logitech MX Master 3</h2><span class='price'>$2429</span><span class='category'>audio</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Logitech MX Master 3",
+      "price": "$2429",
+      "category": "audio",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Sony WH-1000XM5</h2><span class='price'>$2325</span><span class='category'>smartphones</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "Sony WH-1000XM5",
+      "price": "$2325",
+      "category": "smartphones",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Dell XPS 13</h2><span class='price'>$1565</span><span class='category'>electronics</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Dell XPS 13",
+      "price": "$1565",
+      "category": "electronics",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Kindle Paperwhite</h2><span class='price'>$1576</span><span class='category'>electronics</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "Kindle Paperwhite",
+      "price": "$1576",
+      "category": "electronics",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>PlayStation 5</h2><span class='price'>$1086</span><span class='category'>fitness</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "PlayStation 5",
+      "price": "$1086",
+      "category": "fitness",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Logitech MX Master 3</h2><span class='price'>$333</span><span class='category'>smartphones</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Logitech MX Master 3",
+      "price": "$333",
+      "category": "smartphones",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Logitech MX Master 3</h2><span class='price'>$819</span><span class='category'>electronics</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "Logitech MX Master 3",
+      "price": "$819",
+      "category": "electronics",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Dell XPS 13</h2><span class='price'>$1688</span><span class='category'>laptops</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "Dell XPS 13",
+      "price": "$1688",
+      "category": "laptops",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Dell XPS 13</h2><span class='price'>$1447</span><span class='category'>fitness</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "Dell XPS 13",
+      "price": "$1447",
+      "category": "fitness",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Dell XPS 13</h2><span class='price'>$1793</span><span class='category'>audio</span><span class='brand'>Microsoft</span></div>",
+    "output": {
+      "name": "Dell XPS 13",
+      "price": "$1793",
+      "category": "audio",
+      "manufacturer": "Microsoft"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>iPad Air</h2><span class='price'>$448</span><span class='category'>gaming</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "iPad Air",
+      "price": "$448",
+      "category": "gaming",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Fitbit Charge 5</h2><span class='price'>$1685</span><span class='category'>drones</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Fitbit Charge 5",
+      "price": "$1685",
+      "category": "drones",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>DJI Mini 3 Pro</h2><span class='price'>$384</span><span class='category'>electronics</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "DJI Mini 3 Pro",
+      "price": "$384",
+      "category": "electronics",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>iPad Air</h2><span class='price'>$1002</span><span class='category'>fitness</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "iPad Air",
+      "price": "$1002",
+      "category": "fitness",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>HP Envy 15</h2><span class='price'>$2389</span><span class='category'>smartphones</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "HP Envy 15",
+      "price": "$2389",
+      "category": "smartphones",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Sony WH-1000XM5</h2><span class='price'>$915</span><span class='category'>fitness</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "Sony WH-1000XM5",
+      "price": "$915",
+      "category": "fitness",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Canon EOS R</h2><span class='price'>$395</span><span class='category'>drones</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "Canon EOS R",
+      "price": "$395",
+      "category": "drones",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Xbox Series X</h2><span class='price'>$1246</span><span class='category'>gaming</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "Xbox Series X",
+      "price": "$1246",
+      "category": "gaming",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Logitech MX Master 3</h2><span class='price'>$951</span><span class='category'>laptops</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "Logitech MX Master 3",
+      "price": "$951",
+      "category": "laptops",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Sony WH-1000XM5</h2><span class='price'>$446</span><span class='category'>electronics</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "Sony WH-1000XM5",
+      "price": "$446",
+      "category": "electronics",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Google Pixel 7</h2><span class='price'>$1002</span><span class='category'>gaming</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Google Pixel 7",
+      "price": "$1002",
+      "category": "gaming",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Kindle Paperwhite</h2><span class='price'>$395</span><span class='category'>laptops</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Kindle Paperwhite",
+      "price": "$395",
+      "category": "laptops",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>HP Envy 15</h2><span class='price'>$395</span><span class='category'>cameras</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "HP Envy 15",
+      "price": "$395",
+      "category": "cameras",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>HP Envy 15</h2><span class='price'>$2389</span><span class='category'>laptops</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "HP Envy 15",
+      "price": "$2389",
+      "category": "laptops",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Razer DeathAdder V2</h2><span class='price'>$446</span><span class='category'>smartphones</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Razer DeathAdder V2",
+      "price": "$446",
+      "category": "smartphones",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Razer DeathAdder V2</h2><span class='price'>$2396</span><span class='category'>fitness</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "Razer DeathAdder V2",
+      "price": "$2396",
+      "category": "fitness",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Razer DeathAdder V2</h2><span class='price'>$2325</span><span class='category'>electronics</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "Razer DeathAdder V2",
+      "price": "$2325",
+      "category": "electronics",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Google Pixel 7</h2><span class='price'>$1576</span><span class='category'>gaming</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "Google Pixel 7",
+      "price": "$1576",
+      "category": "gaming",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Fitbit Charge 5</h2><span class='price'>$2004</span><span class='category'>laptops</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Fitbit Charge 5",
+      "price": "$2004",
+      "category": "laptops",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Asus ROG Strix</h2><span class='price'>$585</span><span class='category'>smartphones</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Asus ROG Strix",
+      "price": "$585",
+      "category": "smartphones",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Logitech MX Master 3</h2><span class='price'>$1002</span><span class='category'>electronics</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "Logitech MX Master 3",
+      "price": "$1002",
+      "category": "electronics",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>HP Envy 15</h2><span class='price'>$1086</span><span class='category'>gaming</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "HP Envy 15",
+      "price": "$1086",
+      "category": "gaming",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nikon Z6 II</h2><span class='price'>$1793</span><span class='category'>fitness</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Nikon Z6 II",
+      "price": "$1793",
+      "category": "fitness",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nintendo Switch</h2><span class='price'>$712</span><span class='category'>smartphones</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "Nintendo Switch",
+      "price": "$712",
+      "category": "smartphones",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Canon EOS R</h2><span class='price'>$2061</span><span class='category'>fitness</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "Canon EOS R",
+      "price": "$2061",
+      "category": "fitness",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>DJI Mini 3 Pro</h2><span class='price'>$380</span><span class='category'>smartphones</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "DJI Mini 3 Pro",
+      "price": "$380",
+      "category": "smartphones",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Kindle Paperwhite</h2><span class='price'>$1447</span><span class='category'>electronics</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Kindle Paperwhite",
+      "price": "$1447",
+      "category": "electronics",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Samsung Galaxy S23</h2><span class='price'>$2098</span><span class='category'>audio</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "Samsung Galaxy S23",
+      "price": "$2098",
+      "category": "audio",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Razer DeathAdder V2</h2><span class='price'>$951</span><span class='category'>smartphones</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Razer DeathAdder V2",
+      "price": "$951",
+      "category": "smartphones",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Logitech MX Master 3</h2><span class='price'>$1162</span><span class='category'>smartphones</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "Logitech MX Master 3",
+      "price": "$1162",
+      "category": "smartphones",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Samsung Galaxy S23</h2><span class='price'>$2098</span><span class='category'>cameras</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Samsung Galaxy S23",
+      "price": "$2098",
+      "category": "cameras",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Dell XPS 13</h2><span class='price'>$1793</span><span class='category'>smartphones</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Dell XPS 13",
+      "price": "$1793",
+      "category": "smartphones",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>PlayStation 5</h2><span class='price'>$1246</span><span class='category'>drones</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "PlayStation 5",
+      "price": "$1246",
+      "category": "drones",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nikon Z6 II</h2><span class='price'>$2102</span><span class='category'>electronics</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "Nikon Z6 II",
+      "price": "$2102",
+      "category": "electronics",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>PlayStation 5</h2><span class='price'>$1194</span><span class='category'>laptops</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "PlayStation 5",
+      "price": "$1194",
+      "category": "laptops",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nikon Z6 II</h2><span class='price'>$299</span><span class='category'>cameras</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Nikon Z6 II",
+      "price": "$299",
+      "category": "cameras",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Xbox Series X</h2><span class='price'>$677</span><span class='category'>electronics</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "Xbox Series X",
+      "price": "$677",
+      "category": "electronics",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>HP Envy 15</h2><span class='price'>$299</span><span class='category'>cameras</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "HP Envy 15",
+      "price": "$299",
+      "category": "cameras",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Samsung Galaxy S23</h2><span class='price'>$915</span><span class='category'>drones</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Samsung Galaxy S23",
+      "price": "$915",
+      "category": "drones",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Kindle Paperwhite</h2><span class='price'>$380</span><span class='category'>fitness</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "Kindle Paperwhite",
+      "price": "$380",
+      "category": "fitness",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Google Pixel 7</h2><span class='price'>$2396</span><span class='category'>fitness</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "Google Pixel 7",
+      "price": "$2396",
+      "category": "fitness",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Logitech MX Master 3</h2><span class='price'>$1688</span><span class='category'>gaming</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Logitech MX Master 3",
+      "price": "$1688",
+      "category": "gaming",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Bose QuietComfort 45</h2><span class='price'>$395</span><span class='category'>smartphones</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Bose QuietComfort 45",
+      "price": "$395",
+      "category": "smartphones",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Dell XPS 13</h2><span class='price'>$333</span><span class='category'>audio</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Dell XPS 13",
+      "price": "$333",
+      "category": "audio",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Bose QuietComfort 45</h2><span class='price'>$1685</span><span class='category'>cameras</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "Bose QuietComfort 45",
+      "price": "$1685",
+      "category": "cameras",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Razer DeathAdder V2</h2><span class='price'>$677</span><span class='category'>laptops</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Razer DeathAdder V2",
+      "price": "$677",
+      "category": "laptops",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Xbox Series X</h2><span class='price'>$585</span><span class='category'>fitness</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "Xbox Series X",
+      "price": "$585",
+      "category": "fitness",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Xbox Series X</h2><span class='price'>$1403</span><span class='category'>smartphones</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Xbox Series X",
+      "price": "$1403",
+      "category": "smartphones",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>MacBook Pro 14</h2><span class='price'>$930</span><span class='category'>audio</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "MacBook Pro 14",
+      "price": "$930",
+      "category": "audio",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Razer DeathAdder V2</h2><span class='price'>$712</span><span class='category'>fitness</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "Razer DeathAdder V2",
+      "price": "$712",
+      "category": "fitness",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Fitbit Charge 5</h2><span class='price'>$819</span><span class='category'>electronics</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "Fitbit Charge 5",
+      "price": "$819",
+      "category": "electronics",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Canon EOS R</h2><span class='price'>$1106</span><span class='category'>drones</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "Canon EOS R",
+      "price": "$1106",
+      "category": "drones",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Sony WH-1000XM5</h2><span class='price'>$951</span><span class='category'>drones</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "Sony WH-1000XM5",
+      "price": "$951",
+      "category": "drones",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>HP Envy 15</h2><span class='price'>$258</span><span class='category'>fitness</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "HP Envy 15",
+      "price": "$258",
+      "category": "fitness",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>HP Envy 15</h2><span class='price'>$454</span><span class='category'>gaming</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "HP Envy 15",
+      "price": "$454",
+      "category": "gaming",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>iPad Air</h2><span class='price'>$563</span><span class='category'>fitness</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "iPad Air",
+      "price": "$563",
+      "category": "fitness",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>MacBook Pro 14</h2><span class='price'>$1194</span><span class='category'>audio</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "MacBook Pro 14",
+      "price": "$1194",
+      "category": "audio",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Apple Watch</h2><span class='price'>$2389</span><span class='category'>cameras</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "Apple Watch",
+      "price": "$2389",
+      "category": "cameras",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Bose QuietComfort 45</h2><span class='price'>$2325</span><span class='category'>laptops</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Bose QuietComfort 45",
+      "price": "$2325",
+      "category": "laptops",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>PlayStation 5</h2><span class='price'>$2492</span><span class='category'>gaming</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "PlayStation 5",
+      "price": "$2492",
+      "category": "gaming",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Dell XPS 13</h2><span class='price'>$1688</span><span class='category'>smartphones</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "Dell XPS 13",
+      "price": "$1688",
+      "category": "smartphones",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>HP Envy 15</h2><span class='price'>$563</span><span class='category'>smartphones</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "HP Envy 15",
+      "price": "$563",
+      "category": "smartphones",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Apple Watch</h2><span class='price'>$1344</span><span class='category'>audio</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "Apple Watch",
+      "price": "$1344",
+      "category": "audio",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>MacBook Pro 14</h2><span class='price'>$437</span><span class='category'>smartphones</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "MacBook Pro 14",
+      "price": "$437",
+      "category": "smartphones",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nintendo Switch</h2><span class='price'>$2102</span><span class='category'>laptops</span><span class='brand'>Microsoft</span></div>",
+    "output": {
+      "name": "Nintendo Switch",
+      "price": "$2102",
+      "category": "laptops",
+      "manufacturer": "Microsoft"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Bose QuietComfort 45</h2><span class='price'>$951</span><span class='category'>fitness</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Bose QuietComfort 45",
+      "price": "$951",
+      "category": "fitness",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Google Pixel 7</h2><span class='price'>$819</span><span class='category'>drones</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Google Pixel 7",
+      "price": "$819",
+      "category": "drones",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nintendo Switch</h2><span class='price'>$1793</span><span class='category'>gaming</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "Nintendo Switch",
+      "price": "$1793",
+      "category": "gaming",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Razer DeathAdder V2</h2><span class='price'>$1403</span><span class='category'>electronics</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Razer DeathAdder V2",
+      "price": "$1403",
+      "category": "electronics",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nikon Z6 II</h2><span class='price'>$677</span><span class='category'>electronics</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "Nikon Z6 II",
+      "price": "$677",
+      "category": "electronics",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nintendo Switch</h2><span class='price'>$1688</span><span class='category'>laptops</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "Nintendo Switch",
+      "price": "$1688",
+      "category": "laptops",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Bose QuietComfort 45</h2><span class='price'>$1793</span><span class='category'>drones</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Bose QuietComfort 45",
+      "price": "$1793",
+      "category": "drones",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Razer DeathAdder V2</h2><span class='price'>$453</span><span class='category'>gaming</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "Razer DeathAdder V2",
+      "price": "$453",
+      "category": "gaming",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>MacBook Pro 14</h2><span class='price'>$446</span><span class='category'>laptops</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "MacBook Pro 14",
+      "price": "$446",
+      "category": "laptops",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Kindle Paperwhite</h2><span class='price'>$1793</span><span class='category'>audio</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "Kindle Paperwhite",
+      "price": "$1793",
+      "category": "audio",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>PlayStation 5</h2><span class='price'>$2100</span><span class='category'>fitness</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "PlayStation 5",
+      "price": "$2100",
+      "category": "fitness",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Razer DeathAdder V2</h2><span class='price'>$384</span><span class='category'>fitness</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "Razer DeathAdder V2",
+      "price": "$384",
+      "category": "fitness",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Apple Watch</h2><span class='price'>$299</span><span class='category'>electronics</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "Apple Watch",
+      "price": "$299",
+      "category": "electronics",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Sony WH-1000XM5</h2><span class='price'>$1576</span><span class='category'>smartphones</span><span class='brand'>Microsoft</span></div>",
+    "output": {
+      "name": "Sony WH-1000XM5",
+      "price": "$1576",
+      "category": "smartphones",
+      "manufacturer": "Microsoft"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Kindle Paperwhite</h2><span class='price'>$299</span><span class='category'>gaming</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Kindle Paperwhite",
+      "price": "$299",
+      "category": "gaming",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>MacBook Pro 14</h2><span class='price'>$2492</span><span class='category'>gaming</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "MacBook Pro 14",
+      "price": "$2492",
+      "category": "gaming",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Logitech MX Master 3</h2><span class='price'>$2061</span><span class='category'>audio</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Logitech MX Master 3",
+      "price": "$2061",
+      "category": "audio",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Samsung Galaxy S23</h2><span class='price'>$380</span><span class='category'>audio</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Samsung Galaxy S23",
+      "price": "$380",
+      "category": "audio",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Logitech MX Master 3</h2><span class='price'>$437</span><span class='category'>cameras</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "Logitech MX Master 3",
+      "price": "$437",
+      "category": "cameras",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Apple Watch</h2><span class='price'>$951</span><span class='category'>drones</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Apple Watch",
+      "price": "$951",
+      "category": "drones",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>PlayStation 5</h2><span class='price'>$979</span><span class='category'>smartphones</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "PlayStation 5",
+      "price": "$979",
+      "category": "smartphones",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>DJI Mini 3 Pro</h2><span class='price'>$2061</span><span class='category'>laptops</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "DJI Mini 3 Pro",
+      "price": "$2061",
+      "category": "laptops",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Dell XPS 13</h2><span class='price'>$1277</span><span class='category'>drones</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "Dell XPS 13",
+      "price": "$1277",
+      "category": "drones",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Asus ROG Strix</h2><span class='price'>$1002</span><span class='category'>cameras</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "Asus ROG Strix",
+      "price": "$1002",
+      "category": "cameras",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Razer DeathAdder V2</h2><span class='price'>$930</span><span class='category'>drones</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "Razer DeathAdder V2",
+      "price": "$930",
+      "category": "drones",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Apple Watch</h2><span class='price'>$563</span><span class='category'>cameras</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Apple Watch",
+      "price": "$563",
+      "category": "cameras",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Logitech MX Master 3</h2><span class='price'>$1194</span><span class='category'>cameras</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Logitech MX Master 3",
+      "price": "$1194",
+      "category": "cameras",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Samsung Galaxy S23</h2><span class='price'>$1576</span><span class='category'>gaming</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "Samsung Galaxy S23",
+      "price": "$1576",
+      "category": "gaming",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Fitbit Charge 5</h2><span class='price'>$453</span><span class='category'>drones</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "Fitbit Charge 5",
+      "price": "$453",
+      "category": "drones",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Logitech MX Master 3</h2><span class='price'>$380</span><span class='category'>laptops</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "Logitech MX Master 3",
+      "price": "$380",
+      "category": "laptops",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>iPad Air</h2><span class='price'>$2325</span><span class='category'>electronics</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "iPad Air",
+      "price": "$2325",
+      "category": "electronics",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Google Pixel 7</h2><span class='price'>$585</span><span class='category'>audio</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Google Pixel 7",
+      "price": "$585",
+      "category": "audio",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Logitech MX Master 3</h2><span class='price'>$585</span><span class='category'>gaming</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "Logitech MX Master 3",
+      "price": "$585",
+      "category": "gaming",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Kindle Paperwhite</h2><span class='price'>$1576</span><span class='category'>smartphones</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Kindle Paperwhite",
+      "price": "$1576",
+      "category": "smartphones",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>PlayStation 5</h2><span class='price'>$1685</span><span class='category'>smartphones</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "PlayStation 5",
+      "price": "$1685",
+      "category": "smartphones",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Fitbit Charge 5</h2><span class='price'>$453</span><span class='category'>audio</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "Fitbit Charge 5",
+      "price": "$453",
+      "category": "audio",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Xbox Series X</h2><span class='price'>$1447</span><span class='category'>cameras</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Xbox Series X",
+      "price": "$1447",
+      "category": "cameras",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Xbox Series X</h2><span class='price'>$454</span><span class='category'>smartphones</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Xbox Series X",
+      "price": "$454",
+      "category": "smartphones",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>PlayStation 5</h2><span class='price'>$1246</span><span class='category'>electronics</span><span class='brand'>Microsoft</span></div>",
+    "output": {
+      "name": "PlayStation 5",
+      "price": "$1246",
+      "category": "electronics",
+      "manufacturer": "Microsoft"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Apple Watch</h2><span class='price'>$1793</span><span class='category'>smartphones</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Apple Watch",
+      "price": "$1793",
+      "category": "smartphones",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Fitbit Charge 5</h2><span class='price'>$819</span><span class='category'>electronics</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "Fitbit Charge 5",
+      "price": "$819",
+      "category": "electronics",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Google Pixel 7</h2><span class='price'>$677</span><span class='category'>cameras</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "Google Pixel 7",
+      "price": "$677",
+      "category": "cameras",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>iPad Air</h2><span class='price'>$395</span><span class='category'>audio</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "iPad Air",
+      "price": "$395",
+      "category": "audio",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Bose QuietComfort 45</h2><span class='price'>$1685</span><span class='category'>drones</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "Bose QuietComfort 45",
+      "price": "$1685",
+      "category": "drones",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Bose QuietComfort 45</h2><span class='price'>$1106</span><span class='category'>drones</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Bose QuietComfort 45",
+      "price": "$1106",
+      "category": "drones",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Samsung Galaxy S23</h2><span class='price'>$299</span><span class='category'>laptops</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "Samsung Galaxy S23",
+      "price": "$299",
+      "category": "laptops",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Logitech MX Master 3</h2><span class='price'>$650</span><span class='category'>laptops</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Logitech MX Master 3",
+      "price": "$650",
+      "category": "laptops",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Dell XPS 13</h2><span class='price'>$1793</span><span class='category'>laptops</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Dell XPS 13",
+      "price": "$1793",
+      "category": "laptops",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Kindle Paperwhite</h2><span class='price'>$2098</span><span class='category'>laptops</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "Kindle Paperwhite",
+      "price": "$2098",
+      "category": "laptops",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Logitech MX Master 3</h2><span class='price'>$1194</span><span class='category'>gaming</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "Logitech MX Master 3",
+      "price": "$1194",
+      "category": "gaming",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Kindle Paperwhite</h2><span class='price'>$2098</span><span class='category'>cameras</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "Kindle Paperwhite",
+      "price": "$2098",
+      "category": "cameras",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Apple Watch</h2><span class='price'>$1162</span><span class='category'>laptops</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "Apple Watch",
+      "price": "$1162",
+      "category": "laptops",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Razer DeathAdder V2</h2><span class='price'>$563</span><span class='category'>cameras</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "Razer DeathAdder V2",
+      "price": "$563",
+      "category": "cameras",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Fitbit Charge 5</h2><span class='price'>$2004</span><span class='category'>gaming</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Fitbit Charge 5",
+      "price": "$2004",
+      "category": "gaming",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Asus ROG Strix</h2><span class='price'>$677</span><span class='category'>audio</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "Asus ROG Strix",
+      "price": "$677",
+      "category": "audio",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Logitech MX Master 3</h2><span class='price'>$563</span><span class='category'>audio</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "Logitech MX Master 3",
+      "price": "$563",
+      "category": "audio",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nintendo Switch</h2><span class='price'>$2098</span><span class='category'>fitness</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Nintendo Switch",
+      "price": "$2098",
+      "category": "fitness",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Dell XPS 13</h2><span class='price'>$1978</span><span class='category'>laptops</span><span class='brand'>Microsoft</span></div>",
+    "output": {
+      "name": "Dell XPS 13",
+      "price": "$1978",
+      "category": "laptops",
+      "manufacturer": "Microsoft"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Asus ROG Strix</h2><span class='price'>$2325</span><span class='category'>smartphones</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "Asus ROG Strix",
+      "price": "$2325",
+      "category": "smartphones",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nikon Z6 II</h2><span class='price'>$299</span><span class='category'>cameras</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "Nikon Z6 II",
+      "price": "$299",
+      "category": "cameras",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nintendo Switch</h2><span class='price'>$2004</span><span class='category'>drones</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "Nintendo Switch",
+      "price": "$2004",
+      "category": "drones",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>PlayStation 5</h2><span class='price'>$299</span><span class='category'>audio</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "PlayStation 5",
+      "price": "$299",
+      "category": "audio",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Apple Watch</h2><span class='price'>$1978</span><span class='category'>electronics</span><span class='brand'>Microsoft</span></div>",
+    "output": {
+      "name": "Apple Watch",
+      "price": "$1978",
+      "category": "electronics",
+      "manufacturer": "Microsoft"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Xbox Series X</h2><span class='price'>$2492</span><span class='category'>laptops</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "Xbox Series X",
+      "price": "$2492",
+      "category": "laptops",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Samsung Galaxy S23</h2><span class='price'>$650</span><span class='category'>smartphones</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Samsung Galaxy S23",
+      "price": "$650",
+      "category": "smartphones",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>HP Envy 15</h2><span class='price'>$819</span><span class='category'>laptops</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "HP Envy 15",
+      "price": "$819",
+      "category": "laptops",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Kindle Paperwhite</h2><span class='price'>$1403</span><span class='category'>smartphones</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Kindle Paperwhite",
+      "price": "$1403",
+      "category": "smartphones",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Bose QuietComfort 45</h2><span class='price'>$395</span><span class='category'>gaming</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Bose QuietComfort 45",
+      "price": "$395",
+      "category": "gaming",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>DJI Mini 3 Pro</h2><span class='price'>$1576</span><span class='category'>gaming</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "DJI Mini 3 Pro",
+      "price": "$1576",
+      "category": "gaming",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Kindle Paperwhite</h2><span class='price'>$915</span><span class='category'>drones</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Kindle Paperwhite",
+      "price": "$915",
+      "category": "drones",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Kindle Paperwhite</h2><span class='price'>$380</span><span class='category'>drones</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "Kindle Paperwhite",
+      "price": "$380",
+      "category": "drones",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>MacBook Pro 14</h2><span class='price'>$2100</span><span class='category'>gaming</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "MacBook Pro 14",
+      "price": "$2100",
+      "category": "gaming",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Sony WH-1000XM5</h2><span class='price'>$1086</span><span class='category'>fitness</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Sony WH-1000XM5",
+      "price": "$1086",
+      "category": "fitness",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>PlayStation 5</h2><span class='price'>$333</span><span class='category'>drones</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "PlayStation 5",
+      "price": "$333",
+      "category": "drones",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nintendo Switch</h2><span class='price'>$2004</span><span class='category'>gaming</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Nintendo Switch",
+      "price": "$2004",
+      "category": "gaming",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Razer DeathAdder V2</h2><span class='price'>$1277</span><span class='category'>cameras</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "Razer DeathAdder V2",
+      "price": "$1277",
+      "category": "cameras",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>iPad Air</h2><span class='price'>$534</span><span class='category'>smartphones</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "iPad Air",
+      "price": "$534",
+      "category": "smartphones",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nintendo Switch</h2><span class='price'>$1162</span><span class='category'>laptops</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "Nintendo Switch",
+      "price": "$1162",
+      "category": "laptops",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Xbox Series X</h2><span class='price'>$2325</span><span class='category'>smartphones</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Xbox Series X",
+      "price": "$2325",
+      "category": "smartphones",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Apple Watch</h2><span class='price'>$677</span><span class='category'>laptops</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Apple Watch",
+      "price": "$677",
+      "category": "laptops",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Samsung Galaxy S23</h2><span class='price'>$2325</span><span class='category'>cameras</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Samsung Galaxy S23",
+      "price": "$2325",
+      "category": "cameras",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nintendo Switch</h2><span class='price'>$1793</span><span class='category'>laptops</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "Nintendo Switch",
+      "price": "$1793",
+      "category": "laptops",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Apple Watch</h2><span class='price'>$1344</span><span class='category'>audio</span><span class='brand'>Microsoft</span></div>",
+    "output": {
+      "name": "Apple Watch",
+      "price": "$1344",
+      "category": "audio",
+      "manufacturer": "Microsoft"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>HP Envy 15</h2><span class='price'>$1708</span><span class='category'>smartphones</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "HP Envy 15",
+      "price": "$1708",
+      "category": "smartphones",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>PlayStation 5</h2><span class='price'>$384</span><span class='category'>smartphones</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "PlayStation 5",
+      "price": "$384",
+      "category": "smartphones",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Sony WH-1000XM5</h2><span class='price'>$2004</span><span class='category'>smartphones</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Sony WH-1000XM5",
+      "price": "$2004",
+      "category": "smartphones",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nintendo Switch</h2><span class='price'>$2396</span><span class='category'>audio</span><span class='brand'>Microsoft</span></div>",
+    "output": {
+      "name": "Nintendo Switch",
+      "price": "$2396",
+      "category": "audio",
+      "manufacturer": "Microsoft"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Kindle Paperwhite</h2><span class='price'>$534</span><span class='category'>laptops</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "Kindle Paperwhite",
+      "price": "$534",
+      "category": "laptops",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Xbox Series X</h2><span class='price'>$453</span><span class='category'>electronics</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "Xbox Series X",
+      "price": "$453",
+      "category": "electronics",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>iPad Air</h2><span class='price'>$915</span><span class='category'>gaming</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "iPad Air",
+      "price": "$915",
+      "category": "gaming",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>PlayStation 5</h2><span class='price'>$1565</span><span class='category'>fitness</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "PlayStation 5",
+      "price": "$1565",
+      "category": "fitness",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>PlayStation 5</h2><span class='price'>$1565</span><span class='category'>smartphones</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "PlayStation 5",
+      "price": "$1565",
+      "category": "smartphones",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Kindle Paperwhite</h2><span class='price'>$930</span><span class='category'>gaming</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Kindle Paperwhite",
+      "price": "$930",
+      "category": "gaming",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nintendo Switch</h2><span class='price'>$585</span><span class='category'>cameras</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "Nintendo Switch",
+      "price": "$585",
+      "category": "cameras",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nintendo Switch</h2><span class='price'>$1027</span><span class='category'>electronics</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "Nintendo Switch",
+      "price": "$1027",
+      "category": "electronics",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Bose QuietComfort 45</h2><span class='price'>$1344</span><span class='category'>laptops</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "Bose QuietComfort 45",
+      "price": "$1344",
+      "category": "laptops",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nintendo Switch</h2><span class='price'>$2325</span><span class='category'>laptops</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Nintendo Switch",
+      "price": "$2325",
+      "category": "laptops",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nikon Z6 II</h2><span class='price'>$448</span><span class='category'>electronics</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Nikon Z6 II",
+      "price": "$448",
+      "category": "electronics",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Samsung Galaxy S23</h2><span class='price'>$1344</span><span class='category'>gaming</span><span class='brand'>Microsoft</span></div>",
+    "output": {
+      "name": "Samsung Galaxy S23",
+      "price": "$1344",
+      "category": "gaming",
+      "manufacturer": "Microsoft"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Dell XPS 13</h2><span class='price'>$534</span><span class='category'>smartphones</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Dell XPS 13",
+      "price": "$534",
+      "category": "smartphones",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Apple Watch</h2><span class='price'>$1447</span><span class='category'>gaming</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Apple Watch",
+      "price": "$1447",
+      "category": "gaming",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Apple Watch</h2><span class='price'>$2098</span><span class='category'>fitness</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Apple Watch",
+      "price": "$2098",
+      "category": "fitness",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Canon EOS R</h2><span class='price'>$1793</span><span class='category'>audio</span><span class='brand'>Microsoft</span></div>",
+    "output": {
+      "name": "Canon EOS R",
+      "price": "$1793",
+      "category": "audio",
+      "manufacturer": "Microsoft"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Dell XPS 13</h2><span class='price'>$2325</span><span class='category'>gaming</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Dell XPS 13",
+      "price": "$2325",
+      "category": "gaming",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Samsung Galaxy S23</h2><span class='price'>$2396</span><span class='category'>cameras</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "Samsung Galaxy S23",
+      "price": "$2396",
+      "category": "cameras",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>DJI Mini 3 Pro</h2><span class='price'>$2325</span><span class='category'>smartphones</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "DJI Mini 3 Pro",
+      "price": "$2325",
+      "category": "smartphones",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Sony WH-1000XM5</h2><span class='price'>$1685</span><span class='category'>laptops</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "Sony WH-1000XM5",
+      "price": "$1685",
+      "category": "laptops",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>HP Envy 15</h2><span class='price'>$384</span><span class='category'>audio</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "HP Envy 15",
+      "price": "$384",
+      "category": "audio",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>HP Envy 15</h2><span class='price'>$448</span><span class='category'>fitness</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "HP Envy 15",
+      "price": "$448",
+      "category": "fitness",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Razer DeathAdder V2</h2><span class='price'>$2429</span><span class='category'>drones</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "Razer DeathAdder V2",
+      "price": "$2429",
+      "category": "drones",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>iPad Air</h2><span class='price'>$1002</span><span class='category'>audio</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "iPad Air",
+      "price": "$1002",
+      "category": "audio",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Logitech MX Master 3</h2><span class='price'>$2004</span><span class='category'>smartphones</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Logitech MX Master 3",
+      "price": "$2004",
+      "category": "smartphones",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Kindle Paperwhite</h2><span class='price'>$534</span><span class='category'>gaming</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "Kindle Paperwhite",
+      "price": "$534",
+      "category": "gaming",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Kindle Paperwhite</h2><span class='price'>$2004</span><span class='category'>electronics</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Kindle Paperwhite",
+      "price": "$2004",
+      "category": "electronics",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Xbox Series X</h2><span class='price'>$1688</span><span class='category'>fitness</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "Xbox Series X",
+      "price": "$1688",
+      "category": "fitness",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nintendo Switch</h2><span class='price'>$448</span><span class='category'>fitness</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "Nintendo Switch",
+      "price": "$448",
+      "category": "fitness",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Samsung Galaxy S23</h2><span class='price'>$819</span><span class='category'>laptops</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "Samsung Galaxy S23",
+      "price": "$819",
+      "category": "laptops",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Xbox Series X</h2><span class='price'>$712</span><span class='category'>audio</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "Xbox Series X",
+      "price": "$712",
+      "category": "audio",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Sony WH-1000XM5</h2><span class='price'>$448</span><span class='category'>audio</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Sony WH-1000XM5",
+      "price": "$448",
+      "category": "audio",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Samsung Galaxy S23</h2><span class='price'>$2429</span><span class='category'>gaming</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Samsung Galaxy S23",
+      "price": "$2429",
+      "category": "gaming",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Kindle Paperwhite</h2><span class='price'>$1447</span><span class='category'>cameras</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "Kindle Paperwhite",
+      "price": "$1447",
+      "category": "cameras",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Google Pixel 7</h2><span class='price'>$1194</span><span class='category'>audio</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Google Pixel 7",
+      "price": "$1194",
+      "category": "audio",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>PlayStation 5</h2><span class='price'>$446</span><span class='category'>drones</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "PlayStation 5",
+      "price": "$446",
+      "category": "drones",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Samsung Galaxy S23</h2><span class='price'>$915</span><span class='category'>electronics</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "Samsung Galaxy S23",
+      "price": "$915",
+      "category": "electronics",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Asus ROG Strix</h2><span class='price'>$380</span><span class='category'>audio</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Asus ROG Strix",
+      "price": "$380",
+      "category": "audio",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>iPad Air</h2><span class='price'>$1447</span><span class='category'>audio</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "iPad Air",
+      "price": "$1447",
+      "category": "audio",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Logitech MX Master 3</h2><span class='price'>$2061</span><span class='category'>drones</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Logitech MX Master 3",
+      "price": "$2061",
+      "category": "drones",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nintendo Switch</h2><span class='price'>$2325</span><span class='category'>fitness</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Nintendo Switch",
+      "price": "$2325",
+      "category": "fitness",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Canon EOS R</h2><span class='price'>$446</span><span class='category'>gaming</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Canon EOS R",
+      "price": "$446",
+      "category": "gaming",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Sony WH-1000XM5</h2><span class='price'>$819</span><span class='category'>fitness</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Sony WH-1000XM5",
+      "price": "$819",
+      "category": "fitness",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Bose QuietComfort 45</h2><span class='price'>$1447</span><span class='category'>smartphones</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Bose QuietComfort 45",
+      "price": "$1447",
+      "category": "smartphones",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Xbox Series X</h2><span class='price'>$2389</span><span class='category'>fitness</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "Xbox Series X",
+      "price": "$2389",
+      "category": "fitness",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Fitbit Charge 5</h2><span class='price'>$712</span><span class='category'>smartphones</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Fitbit Charge 5",
+      "price": "$712",
+      "category": "smartphones",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>PlayStation 5</h2><span class='price'>$2102</span><span class='category'>cameras</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "PlayStation 5",
+      "price": "$2102",
+      "category": "cameras",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Logitech MX Master 3</h2><span class='price'>$677</span><span class='category'>electronics</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "Logitech MX Master 3",
+      "price": "$677",
+      "category": "electronics",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>MacBook Pro 14</h2><span class='price'>$395</span><span class='category'>audio</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "MacBook Pro 14",
+      "price": "$395",
+      "category": "audio",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Fitbit Charge 5</h2><span class='price'>$712</span><span class='category'>cameras</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "Fitbit Charge 5",
+      "price": "$712",
+      "category": "cameras",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Logitech MX Master 3</h2><span class='price'>$951</span><span class='category'>drones</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Logitech MX Master 3",
+      "price": "$951",
+      "category": "drones",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>iPad Air</h2><span class='price'>$1194</span><span class='category'>audio</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "iPad Air",
+      "price": "$1194",
+      "category": "audio",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Canon EOS R</h2><span class='price'>$2098</span><span class='category'>gaming</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "Canon EOS R",
+      "price": "$2098",
+      "category": "gaming",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>MacBook Pro 14</h2><span class='price'>$446</span><span class='category'>cameras</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "MacBook Pro 14",
+      "price": "$446",
+      "category": "cameras",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Bose QuietComfort 45</h2><span class='price'>$1447</span><span class='category'>audio</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Bose QuietComfort 45",
+      "price": "$1447",
+      "category": "audio",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nintendo Switch</h2><span class='price'>$1685</span><span class='category'>smartphones</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "Nintendo Switch",
+      "price": "$1685",
+      "category": "smartphones",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>MacBook Pro 14</h2><span class='price'>$2492</span><span class='category'>smartphones</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "MacBook Pro 14",
+      "price": "$2492",
+      "category": "smartphones",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>MacBook Pro 14</h2><span class='price'>$2102</span><span class='category'>laptops</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "MacBook Pro 14",
+      "price": "$2102",
+      "category": "laptops",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Razer DeathAdder V2</h2><span class='price'>$951</span><span class='category'>smartphones</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Razer DeathAdder V2",
+      "price": "$951",
+      "category": "smartphones",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Fitbit Charge 5</h2><span class='price'>$979</span><span class='category'>cameras</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "Fitbit Charge 5",
+      "price": "$979",
+      "category": "cameras",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>HP Envy 15</h2><span class='price'>$2396</span><span class='category'>laptops</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "HP Envy 15",
+      "price": "$2396",
+      "category": "laptops",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Sony WH-1000XM5</h2><span class='price'>$712</span><span class='category'>drones</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Sony WH-1000XM5",
+      "price": "$712",
+      "category": "drones",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>DJI Mini 3 Pro</h2><span class='price'>$1403</span><span class='category'>cameras</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "DJI Mini 3 Pro",
+      "price": "$1403",
+      "category": "cameras",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Apple Watch</h2><span class='price'>$1447</span><span class='category'>laptops</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "Apple Watch",
+      "price": "$1447",
+      "category": "laptops",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Google Pixel 7</h2><span class='price'>$380</span><span class='category'>drones</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "Google Pixel 7",
+      "price": "$380",
+      "category": "drones",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>PlayStation 5</h2><span class='price'>$1194</span><span class='category'>fitness</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "PlayStation 5",
+      "price": "$1194",
+      "category": "fitness",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nikon Z6 II</h2><span class='price'>$819</span><span class='category'>fitness</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Nikon Z6 II",
+      "price": "$819",
+      "category": "fitness",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Dell XPS 13</h2><span class='price'>$2325</span><span class='category'>cameras</span><span class='brand'>Microsoft</span></div>",
+    "output": {
+      "name": "Dell XPS 13",
+      "price": "$2325",
+      "category": "cameras",
+      "manufacturer": "Microsoft"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Razer DeathAdder V2</h2><span class='price'>$563</span><span class='category'>audio</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Razer DeathAdder V2",
+      "price": "$563",
+      "category": "audio",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Sony WH-1000XM5</h2><span class='price'>$2102</span><span class='category'>gaming</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Sony WH-1000XM5",
+      "price": "$2102",
+      "category": "gaming",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Sony WH-1000XM5</h2><span class='price'>$585</span><span class='category'>fitness</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Sony WH-1000XM5",
+      "price": "$585",
+      "category": "fitness",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>iPad Air</h2><span class='price'>$1685</span><span class='category'>smartphones</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "iPad Air",
+      "price": "$1685",
+      "category": "smartphones",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Canon EOS R</h2><span class='price'>$915</span><span class='category'>fitness</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "Canon EOS R",
+      "price": "$915",
+      "category": "fitness",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Canon EOS R</h2><span class='price'>$333</span><span class='category'>audio</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Canon EOS R",
+      "price": "$333",
+      "category": "audio",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nikon Z6 II</h2><span class='price'>$2100</span><span class='category'>smartphones</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Nikon Z6 II",
+      "price": "$2100",
+      "category": "smartphones",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Google Pixel 7</h2><span class='price'>$1246</span><span class='category'>cameras</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Google Pixel 7",
+      "price": "$1246",
+      "category": "cameras",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Bose QuietComfort 45</h2><span class='price'>$534</span><span class='category'>electronics</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Bose QuietComfort 45",
+      "price": "$534",
+      "category": "electronics",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Apple Watch</h2><span class='price'>$951</span><span class='category'>drones</span><span class='brand'>Microsoft</span></div>",
+    "output": {
+      "name": "Apple Watch",
+      "price": "$951",
+      "category": "drones",
+      "manufacturer": "Microsoft"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Xbox Series X</h2><span class='price'>$1688</span><span class='category'>audio</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "Xbox Series X",
+      "price": "$1688",
+      "category": "audio",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>HP Envy 15</h2><span class='price'>$333</span><span class='category'>drones</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "HP Envy 15",
+      "price": "$333",
+      "category": "drones",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Bose QuietComfort 45</h2><span class='price'>$650</span><span class='category'>gaming</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Bose QuietComfort 45",
+      "price": "$650",
+      "category": "gaming",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Logitech MX Master 3</h2><span class='price'>$677</span><span class='category'>laptops</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "Logitech MX Master 3",
+      "price": "$677",
+      "category": "laptops",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nikon Z6 II</h2><span class='price'>$2098</span><span class='category'>cameras</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "Nikon Z6 II",
+      "price": "$2098",
+      "category": "cameras",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Canon EOS R</h2><span class='price'>$437</span><span class='category'>cameras</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Canon EOS R",
+      "price": "$437",
+      "category": "cameras",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Apple Watch</h2><span class='price'>$585</span><span class='category'>cameras</span><span class='brand'>Microsoft</span></div>",
+    "output": {
+      "name": "Apple Watch",
+      "price": "$585",
+      "category": "cameras",
+      "manufacturer": "Microsoft"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Razer DeathAdder V2</h2><span class='price'>$453</span><span class='category'>electronics</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Razer DeathAdder V2",
+      "price": "$453",
+      "category": "electronics",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Sony WH-1000XM5</h2><span class='price'>$1002</span><span class='category'>cameras</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "Sony WH-1000XM5",
+      "price": "$1002",
+      "category": "cameras",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>PlayStation 5</h2><span class='price'>$2492</span><span class='category'>audio</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "PlayStation 5",
+      "price": "$2492",
+      "category": "audio",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>PlayStation 5</h2><span class='price'>$1027</span><span class='category'>electronics</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "PlayStation 5",
+      "price": "$1027",
+      "category": "electronics",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Fitbit Charge 5</h2><span class='price'>$446</span><span class='category'>cameras</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "Fitbit Charge 5",
+      "price": "$446",
+      "category": "cameras",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nintendo Switch</h2><span class='price'>$2325</span><span class='category'>laptops</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "Nintendo Switch",
+      "price": "$2325",
+      "category": "laptops",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Google Pixel 7</h2><span class='price'>$819</span><span class='category'>drones</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "Google Pixel 7",
+      "price": "$819",
+      "category": "drones",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Apple Watch</h2><span class='price'>$454</span><span class='category'>audio</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Apple Watch",
+      "price": "$454",
+      "category": "audio",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Samsung Galaxy S23</h2><span class='price'>$712</span><span class='category'>cameras</span><span class='brand'>Microsoft</span></div>",
+    "output": {
+      "name": "Samsung Galaxy S23",
+      "price": "$712",
+      "category": "cameras",
+      "manufacturer": "Microsoft"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Kindle Paperwhite</h2><span class='price'>$448</span><span class='category'>drones</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "Kindle Paperwhite",
+      "price": "$448",
+      "category": "drones",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>PlayStation 5</h2><span class='price'>$677</span><span class='category'>smartphones</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "PlayStation 5",
+      "price": "$677",
+      "category": "smartphones",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Canon EOS R</h2><span class='price'>$2396</span><span class='category'>electronics</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "Canon EOS R",
+      "price": "$2396",
+      "category": "electronics",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>iPad Air</h2><span class='price'>$534</span><span class='category'>laptops</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "iPad Air",
+      "price": "$534",
+      "category": "laptops",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Kindle Paperwhite</h2><span class='price'>$930</span><span class='category'>smartphones</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Kindle Paperwhite",
+      "price": "$930",
+      "category": "smartphones",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nikon Z6 II</h2><span class='price'>$915</span><span class='category'>fitness</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "Nikon Z6 II",
+      "price": "$915",
+      "category": "fitness",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Dell XPS 13</h2><span class='price'>$437</span><span class='category'>smartphones</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Dell XPS 13",
+      "price": "$437",
+      "category": "smartphones",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Asus ROG Strix</h2><span class='price'>$299</span><span class='category'>gaming</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Asus ROG Strix",
+      "price": "$299",
+      "category": "gaming",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Dell XPS 13</h2><span class='price'>$1403</span><span class='category'>fitness</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Dell XPS 13",
+      "price": "$1403",
+      "category": "fitness",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Google Pixel 7</h2><span class='price'>$1027</span><span class='category'>fitness</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Google Pixel 7",
+      "price": "$1027",
+      "category": "fitness",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Logitech MX Master 3</h2><span class='price'>$258</span><span class='category'>cameras</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Logitech MX Master 3",
+      "price": "$258",
+      "category": "cameras",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Razer DeathAdder V2</h2><span class='price'>$380</span><span class='category'>fitness</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "Razer DeathAdder V2",
+      "price": "$380",
+      "category": "fitness",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nintendo Switch</h2><span class='price'>$1447</span><span class='category'>audio</span><span class='brand'>Microsoft</span></div>",
+    "output": {
+      "name": "Nintendo Switch",
+      "price": "$1447",
+      "category": "audio",
+      "manufacturer": "Microsoft"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Google Pixel 7</h2><span class='price'>$819</span><span class='category'>fitness</span><span class='brand'>Microsoft</span></div>",
+    "output": {
+      "name": "Google Pixel 7",
+      "price": "$819",
+      "category": "fitness",
+      "manufacturer": "Microsoft"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>PlayStation 5</h2><span class='price'>$395</span><span class='category'>fitness</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "PlayStation 5",
+      "price": "$395",
+      "category": "fitness",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Google Pixel 7</h2><span class='price'>$979</span><span class='category'>cameras</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "Google Pixel 7",
+      "price": "$979",
+      "category": "cameras",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nintendo Switch</h2><span class='price'>$915</span><span class='category'>fitness</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Nintendo Switch",
+      "price": "$915",
+      "category": "fitness",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Google Pixel 7</h2><span class='price'>$951</span><span class='category'>fitness</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Google Pixel 7",
+      "price": "$951",
+      "category": "fitness",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Razer DeathAdder V2</h2><span class='price'>$1194</span><span class='category'>audio</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "Razer DeathAdder V2",
+      "price": "$1194",
+      "category": "audio",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>HP Envy 15</h2><span class='price'>$1576</span><span class='category'>electronics</span><span class='brand'>Microsoft</span></div>",
+    "output": {
+      "name": "HP Envy 15",
+      "price": "$1576",
+      "category": "electronics",
+      "manufacturer": "Microsoft"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>HP Envy 15</h2><span class='price'>$437</span><span class='category'>electronics</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "HP Envy 15",
+      "price": "$437",
+      "category": "electronics",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Google Pixel 7</h2><span class='price'>$1576</span><span class='category'>gaming</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "Google Pixel 7",
+      "price": "$1576",
+      "category": "gaming",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Fitbit Charge 5</h2><span class='price'>$384</span><span class='category'>gaming</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "Fitbit Charge 5",
+      "price": "$384",
+      "category": "gaming",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Kindle Paperwhite</h2><span class='price'>$1793</span><span class='category'>laptops</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "Kindle Paperwhite",
+      "price": "$1793",
+      "category": "laptops",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Google Pixel 7</h2><span class='price'>$1447</span><span class='category'>electronics</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Google Pixel 7",
+      "price": "$1447",
+      "category": "electronics",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>HP Envy 15</h2><span class='price'>$2102</span><span class='category'>smartphones</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "HP Envy 15",
+      "price": "$2102",
+      "category": "smartphones",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nikon Z6 II</h2><span class='price'>$1086</span><span class='category'>drones</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "Nikon Z6 II",
+      "price": "$1086",
+      "category": "drones",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Dell XPS 13</h2><span class='price'>$1403</span><span class='category'>smartphones</span><span class='brand'>Microsoft</span></div>",
+    "output": {
+      "name": "Dell XPS 13",
+      "price": "$1403",
+      "category": "smartphones",
+      "manufacturer": "Microsoft"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>iPad Air</h2><span class='price'>$446</span><span class='category'>laptops</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "iPad Air",
+      "price": "$446",
+      "category": "laptops",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>PlayStation 5</h2><span class='price'>$563</span><span class='category'>electronics</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "PlayStation 5",
+      "price": "$563",
+      "category": "electronics",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Logitech MX Master 3</h2><span class='price'>$1793</span><span class='category'>laptops</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "Logitech MX Master 3",
+      "price": "$1793",
+      "category": "laptops",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Fitbit Charge 5</h2><span class='price'>$979</span><span class='category'>drones</span><span class='brand'>Microsoft</span></div>",
+    "output": {
+      "name": "Fitbit Charge 5",
+      "price": "$979",
+      "category": "drones",
+      "manufacturer": "Microsoft"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Asus ROG Strix</h2><span class='price'>$534</span><span class='category'>fitness</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "Asus ROG Strix",
+      "price": "$534",
+      "category": "fitness",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Bose QuietComfort 45</h2><span class='price'>$1277</span><span class='category'>audio</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Bose QuietComfort 45",
+      "price": "$1277",
+      "category": "audio",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Google Pixel 7</h2><span class='price'>$299</span><span class='category'>cameras</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "Google Pixel 7",
+      "price": "$299",
+      "category": "cameras",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nintendo Switch</h2><span class='price'>$1002</span><span class='category'>audio</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "Nintendo Switch",
+      "price": "$1002",
+      "category": "audio",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>MacBook Pro 14</h2><span class='price'>$2061</span><span class='category'>electronics</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "MacBook Pro 14",
+      "price": "$2061",
+      "category": "electronics",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>MacBook Pro 14</h2><span class='price'>$2492</span><span class='category'>electronics</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "MacBook Pro 14",
+      "price": "$2492",
+      "category": "electronics",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>HP Envy 15</h2><span class='price'>$395</span><span class='category'>fitness</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "HP Envy 15",
+      "price": "$395",
+      "category": "fitness",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Dell XPS 13</h2><span class='price'>$677</span><span class='category'>cameras</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Dell XPS 13",
+      "price": "$677",
+      "category": "cameras",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nintendo Switch</h2><span class='price'>$2004</span><span class='category'>gaming</span><span class='brand'>Microsoft</span></div>",
+    "output": {
+      "name": "Nintendo Switch",
+      "price": "$2004",
+      "category": "gaming",
+      "manufacturer": "Microsoft"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nintendo Switch</h2><span class='price'>$2098</span><span class='category'>laptops</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "Nintendo Switch",
+      "price": "$2098",
+      "category": "laptops",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Google Pixel 7</h2><span class='price'>$448</span><span class='category'>audio</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Google Pixel 7",
+      "price": "$448",
+      "category": "audio",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Sony WH-1000XM5</h2><span class='price'>$650</span><span class='category'>laptops</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Sony WH-1000XM5",
+      "price": "$650",
+      "category": "laptops",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>PlayStation 5</h2><span class='price'>$437</span><span class='category'>gaming</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "PlayStation 5",
+      "price": "$437",
+      "category": "gaming",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Samsung Galaxy S23</h2><span class='price'>$1002</span><span class='category'>cameras</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "Samsung Galaxy S23",
+      "price": "$1002",
+      "category": "cameras",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Xbox Series X</h2><span class='price'>$384</span><span class='category'>gaming</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Xbox Series X",
+      "price": "$384",
+      "category": "gaming",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Apple Watch</h2><span class='price'>$951</span><span class='category'>electronics</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "Apple Watch",
+      "price": "$951",
+      "category": "electronics",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>iPad Air</h2><span class='price'>$563</span><span class='category'>electronics</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "iPad Air",
+      "price": "$563",
+      "category": "electronics",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Dell XPS 13</h2><span class='price'>$1708</span><span class='category'>cameras</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Dell XPS 13",
+      "price": "$1708",
+      "category": "cameras",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Bose QuietComfort 45</h2><span class='price'>$1194</span><span class='category'>cameras</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "Bose QuietComfort 45",
+      "price": "$1194",
+      "category": "cameras",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Samsung Galaxy S23</h2><span class='price'>$1027</span><span class='category'>electronics</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Samsung Galaxy S23",
+      "price": "$1027",
+      "category": "electronics",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>iPad Air</h2><span class='price'>$1106</span><span class='category'>cameras</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "iPad Air",
+      "price": "$1106",
+      "category": "cameras",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Bose QuietComfort 45</h2><span class='price'>$2429</span><span class='category'>gaming</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "Bose QuietComfort 45",
+      "price": "$2429",
+      "category": "gaming",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Asus ROG Strix</h2><span class='price'>$2492</span><span class='category'>smartphones</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "Asus ROG Strix",
+      "price": "$2492",
+      "category": "smartphones",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Apple Watch</h2><span class='price'>$258</span><span class='category'>fitness</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Apple Watch",
+      "price": "$258",
+      "category": "fitness",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Canon EOS R</h2><span class='price'>$979</span><span class='category'>electronics</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "Canon EOS R",
+      "price": "$979",
+      "category": "electronics",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>MacBook Pro 14</h2><span class='price'>$1086</span><span class='category'>gaming</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "MacBook Pro 14",
+      "price": "$1086",
+      "category": "gaming",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Razer DeathAdder V2</h2><span class='price'>$1685</span><span class='category'>fitness</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Razer DeathAdder V2",
+      "price": "$1685",
+      "category": "fitness",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Asus ROG Strix</h2><span class='price'>$1002</span><span class='category'>gaming</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "Asus ROG Strix",
+      "price": "$1002",
+      "category": "gaming",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Bose QuietComfort 45</h2><span class='price'>$951</span><span class='category'>audio</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "Bose QuietComfort 45",
+      "price": "$951",
+      "category": "audio",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Asus ROG Strix</h2><span class='price'>$1978</span><span class='category'>audio</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "Asus ROG Strix",
+      "price": "$1978",
+      "category": "audio",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Kindle Paperwhite</h2><span class='price'>$454</span><span class='category'>electronics</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "Kindle Paperwhite",
+      "price": "$454",
+      "category": "electronics",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Dell XPS 13</h2><span class='price'>$819</span><span class='category'>electronics</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Dell XPS 13",
+      "price": "$819",
+      "category": "electronics",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Bose QuietComfort 45</h2><span class='price'>$2429</span><span class='category'>gaming</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "Bose QuietComfort 45",
+      "price": "$2429",
+      "category": "gaming",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>iPad Air</h2><span class='price'>$1344</span><span class='category'>cameras</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "iPad Air",
+      "price": "$1344",
+      "category": "cameras",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>MacBook Pro 14</h2><span class='price'>$299</span><span class='category'>smartphones</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "MacBook Pro 14",
+      "price": "$299",
+      "category": "smartphones",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Bose QuietComfort 45</h2><span class='price'>$2389</span><span class='category'>electronics</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Bose QuietComfort 45",
+      "price": "$2389",
+      "category": "electronics",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>DJI Mini 3 Pro</h2><span class='price'>$1086</span><span class='category'>electronics</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "DJI Mini 3 Pro",
+      "price": "$1086",
+      "category": "electronics",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>DJI Mini 3 Pro</h2><span class='price'>$1793</span><span class='category'>audio</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "DJI Mini 3 Pro",
+      "price": "$1793",
+      "category": "audio",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Bose QuietComfort 45</h2><span class='price'>$930</span><span class='category'>drones</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "Bose QuietComfort 45",
+      "price": "$930",
+      "category": "drones",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>DJI Mini 3 Pro</h2><span class='price'>$1027</span><span class='category'>laptops</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "DJI Mini 3 Pro",
+      "price": "$1027",
+      "category": "laptops",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Bose QuietComfort 45</h2><span class='price'>$915</span><span class='category'>laptops</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Bose QuietComfort 45",
+      "price": "$915",
+      "category": "laptops",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nintendo Switch</h2><span class='price'>$258</span><span class='category'>drones</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "Nintendo Switch",
+      "price": "$258",
+      "category": "drones",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nintendo Switch</h2><span class='price'>$380</span><span class='category'>laptops</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Nintendo Switch",
+      "price": "$380",
+      "category": "laptops",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>PlayStation 5</h2><span class='price'>$299</span><span class='category'>laptops</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "PlayStation 5",
+      "price": "$299",
+      "category": "laptops",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nikon Z6 II</h2><span class='price'>$951</span><span class='category'>laptops</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Nikon Z6 II",
+      "price": "$951",
+      "category": "laptops",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Sony WH-1000XM5</h2><span class='price'>$1277</span><span class='category'>fitness</span><span class='brand'>Microsoft</span></div>",
+    "output": {
+      "name": "Sony WH-1000XM5",
+      "price": "$1277",
+      "category": "fitness",
+      "manufacturer": "Microsoft"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Bose QuietComfort 45</h2><span class='price'>$930</span><span class='category'>drones</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "Bose QuietComfort 45",
+      "price": "$930",
+      "category": "drones",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nintendo Switch</h2><span class='price'>$2492</span><span class='category'>smartphones</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Nintendo Switch",
+      "price": "$2492",
+      "category": "smartphones",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Xbox Series X</h2><span class='price'>$2004</span><span class='category'>laptops</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "Xbox Series X",
+      "price": "$2004",
+      "category": "laptops",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nintendo Switch</h2><span class='price'>$1685</span><span class='category'>electronics</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "Nintendo Switch",
+      "price": "$1685",
+      "category": "electronics",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Logitech MX Master 3</h2><span class='price'>$819</span><span class='category'>fitness</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Logitech MX Master 3",
+      "price": "$819",
+      "category": "fitness",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Xbox Series X</h2><span class='price'>$1688</span><span class='category'>smartphones</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Xbox Series X",
+      "price": "$1688",
+      "category": "smartphones",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Bose QuietComfort 45</h2><span class='price'>$2061</span><span class='category'>fitness</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Bose QuietComfort 45",
+      "price": "$2061",
+      "category": "fitness",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Razer DeathAdder V2</h2><span class='price'>$1344</span><span class='category'>audio</span><span class='brand'>Microsoft</span></div>",
+    "output": {
+      "name": "Razer DeathAdder V2",
+      "price": "$1344",
+      "category": "audio",
+      "manufacturer": "Microsoft"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Dell XPS 13</h2><span class='price'>$446</span><span class='category'>laptops</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "Dell XPS 13",
+      "price": "$446",
+      "category": "laptops",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Logitech MX Master 3</h2><span class='price'>$915</span><span class='category'>fitness</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Logitech MX Master 3",
+      "price": "$915",
+      "category": "fitness",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Fitbit Charge 5</h2><span class='price'>$1708</span><span class='category'>gaming</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "Fitbit Charge 5",
+      "price": "$1708",
+      "category": "gaming",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Xbox Series X</h2><span class='price'>$384</span><span class='category'>fitness</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "Xbox Series X",
+      "price": "$384",
+      "category": "fitness",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>MacBook Pro 14</h2><span class='price'>$585</span><span class='category'>cameras</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "MacBook Pro 14",
+      "price": "$585",
+      "category": "cameras",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Apple Watch</h2><span class='price'>$2061</span><span class='category'>fitness</span><span class='brand'>Microsoft</span></div>",
+    "output": {
+      "name": "Apple Watch",
+      "price": "$2061",
+      "category": "fitness",
+      "manufacturer": "Microsoft"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Xbox Series X</h2><span class='price'>$2429</span><span class='category'>cameras</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "Xbox Series X",
+      "price": "$2429",
+      "category": "cameras",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Logitech MX Master 3</h2><span class='price'>$1793</span><span class='category'>drones</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Logitech MX Master 3",
+      "price": "$1793",
+      "category": "drones",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Logitech MX Master 3</h2><span class='price'>$437</span><span class='category'>audio</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Logitech MX Master 3",
+      "price": "$437",
+      "category": "audio",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>iPad Air</h2><span class='price'>$1027</span><span class='category'>fitness</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "iPad Air",
+      "price": "$1027",
+      "category": "fitness",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Xbox Series X</h2><span class='price'>$2100</span><span class='category'>laptops</span><span class='brand'>Microsoft</span></div>",
+    "output": {
+      "name": "Xbox Series X",
+      "price": "$2100",
+      "category": "laptops",
+      "manufacturer": "Microsoft"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>HP Envy 15</h2><span class='price'>$384</span><span class='category'>fitness</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "HP Envy 15",
+      "price": "$384",
+      "category": "fitness",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Dell XPS 13</h2><span class='price'>$2429</span><span class='category'>cameras</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Dell XPS 13",
+      "price": "$2429",
+      "category": "cameras",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nintendo Switch</h2><span class='price'>$677</span><span class='category'>drones</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "Nintendo Switch",
+      "price": "$677",
+      "category": "drones",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Google Pixel 7</h2><span class='price'>$1086</span><span class='category'>cameras</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "Google Pixel 7",
+      "price": "$1086",
+      "category": "cameras",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Google Pixel 7</h2><span class='price'>$258</span><span class='category'>audio</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "Google Pixel 7",
+      "price": "$258",
+      "category": "audio",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Google Pixel 7</h2><span class='price'>$2100</span><span class='category'>audio</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "Google Pixel 7",
+      "price": "$2100",
+      "category": "audio",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Razer DeathAdder V2</h2><span class='price'>$1688</span><span class='category'>cameras</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Razer DeathAdder V2",
+      "price": "$1688",
+      "category": "cameras",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Dell XPS 13</h2><span class='price'>$2098</span><span class='category'>cameras</span><span class='brand'>Microsoft</span></div>",
+    "output": {
+      "name": "Dell XPS 13",
+      "price": "$2098",
+      "category": "cameras",
+      "manufacturer": "Microsoft"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Asus ROG Strix</h2><span class='price'>$951</span><span class='category'>electronics</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Asus ROG Strix",
+      "price": "$951",
+      "category": "electronics",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Asus ROG Strix</h2><span class='price'>$2396</span><span class='category'>smartphones</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "Asus ROG Strix",
+      "price": "$2396",
+      "category": "smartphones",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Dell XPS 13</h2><span class='price'>$395</span><span class='category'>electronics</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Dell XPS 13",
+      "price": "$395",
+      "category": "electronics",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Xbox Series X</h2><span class='price'>$1246</span><span class='category'>electronics</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "Xbox Series X",
+      "price": "$1246",
+      "category": "electronics",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>PlayStation 5</h2><span class='price'>$299</span><span class='category'>fitness</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "PlayStation 5",
+      "price": "$299",
+      "category": "fitness",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Razer DeathAdder V2</h2><span class='price'>$2429</span><span class='category'>drones</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Razer DeathAdder V2",
+      "price": "$2429",
+      "category": "drones",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Google Pixel 7</h2><span class='price'>$930</span><span class='category'>drones</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "Google Pixel 7",
+      "price": "$930",
+      "category": "drones",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Razer DeathAdder V2</h2><span class='price'>$384</span><span class='category'>electronics</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Razer DeathAdder V2",
+      "price": "$384",
+      "category": "electronics",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Razer DeathAdder V2</h2><span class='price'>$1344</span><span class='category'>fitness</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "Razer DeathAdder V2",
+      "price": "$1344",
+      "category": "fitness",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nintendo Switch</h2><span class='price'>$2396</span><span class='category'>fitness</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Nintendo Switch",
+      "price": "$2396",
+      "category": "fitness",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Asus ROG Strix</h2><span class='price'>$1277</span><span class='category'>electronics</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Asus ROG Strix",
+      "price": "$1277",
+      "category": "electronics",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Asus ROG Strix</h2><span class='price'>$2061</span><span class='category'>laptops</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "Asus ROG Strix",
+      "price": "$2061",
+      "category": "laptops",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Razer DeathAdder V2</h2><span class='price'>$2102</span><span class='category'>cameras</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Razer DeathAdder V2",
+      "price": "$2102",
+      "category": "cameras",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Razer DeathAdder V2</h2><span class='price'>$1978</span><span class='category'>drones</span><span class='brand'>Microsoft</span></div>",
+    "output": {
+      "name": "Razer DeathAdder V2",
+      "price": "$1978",
+      "category": "drones",
+      "manufacturer": "Microsoft"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nintendo Switch</h2><span class='price'>$2004</span><span class='category'>gaming</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "Nintendo Switch",
+      "price": "$2004",
+      "category": "gaming",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>iPad Air</h2><span class='price'>$299</span><span class='category'>cameras</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "iPad Air",
+      "price": "$299",
+      "category": "cameras",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>DJI Mini 3 Pro</h2><span class='price'>$979</span><span class='category'>audio</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "DJI Mini 3 Pro",
+      "price": "$979",
+      "category": "audio",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>PlayStation 5</h2><span class='price'>$448</span><span class='category'>fitness</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "PlayStation 5",
+      "price": "$448",
+      "category": "fitness",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Canon EOS R</h2><span class='price'>$585</span><span class='category'>laptops</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "Canon EOS R",
+      "price": "$585",
+      "category": "laptops",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Canon EOS R</h2><span class='price'>$454</span><span class='category'>audio</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "Canon EOS R",
+      "price": "$454",
+      "category": "audio",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>iPad Air</h2><span class='price'>$930</span><span class='category'>laptops</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "iPad Air",
+      "price": "$930",
+      "category": "laptops",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nikon Z6 II</h2><span class='price'>$1106</span><span class='category'>gaming</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Nikon Z6 II",
+      "price": "$1106",
+      "category": "gaming",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Fitbit Charge 5</h2><span class='price'>$1447</span><span class='category'>electronics</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Fitbit Charge 5",
+      "price": "$1447",
+      "category": "electronics",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>MacBook Pro 14</h2><span class='price'>$2492</span><span class='category'>cameras</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "MacBook Pro 14",
+      "price": "$2492",
+      "category": "cameras",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Xbox Series X</h2><span class='price'>$454</span><span class='category'>audio</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Xbox Series X",
+      "price": "$454",
+      "category": "audio",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>PlayStation 5</h2><span class='price'>$1685</span><span class='category'>fitness</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "PlayStation 5",
+      "price": "$1685",
+      "category": "fitness",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>MacBook Pro 14</h2><span class='price'>$446</span><span class='category'>smartphones</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "MacBook Pro 14",
+      "price": "$446",
+      "category": "smartphones",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nikon Z6 II</h2><span class='price'>$1027</span><span class='category'>audio</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "Nikon Z6 II",
+      "price": "$1027",
+      "category": "audio",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Xbox Series X</h2><span class='price'>$1246</span><span class='category'>electronics</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Xbox Series X",
+      "price": "$1246",
+      "category": "electronics",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>MacBook Pro 14</h2><span class='price'>$1002</span><span class='category'>audio</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "MacBook Pro 14",
+      "price": "$1002",
+      "category": "audio",
+      "manufacturer": "Apple"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Xbox Series X</h2><span class='price'>$1194</span><span class='category'>electronics</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Xbox Series X",
+      "price": "$1194",
+      "category": "electronics",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nikon Z6 II</h2><span class='price'>$1978</span><span class='category'>drones</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "Nikon Z6 II",
+      "price": "$1978",
+      "category": "drones",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Logitech MX Master 3</h2><span class='price'>$1086</span><span class='category'>laptops</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "Logitech MX Master 3",
+      "price": "$1086",
+      "category": "laptops",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Asus ROG Strix</h2><span class='price'>$299</span><span class='category'>gaming</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Asus ROG Strix",
+      "price": "$299",
+      "category": "gaming",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Fitbit Charge 5</h2><span class='price'>$1708</span><span class='category'>laptops</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "Fitbit Charge 5",
+      "price": "$1708",
+      "category": "laptops",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nikon Z6 II</h2><span class='price'>$650</span><span class='category'>drones</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Nikon Z6 II",
+      "price": "$650",
+      "category": "drones",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>DJI Mini 3 Pro</h2><span class='price'>$1162</span><span class='category'>drones</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "DJI Mini 3 Pro",
+      "price": "$1162",
+      "category": "drones",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Bose QuietComfort 45</h2><span class='price'>$2100</span><span class='category'>smartphones</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "Bose QuietComfort 45",
+      "price": "$2100",
+      "category": "smartphones",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>MacBook Pro 14</h2><span class='price'>$1403</span><span class='category'>fitness</span><span class='brand'>Sony</span></div>",
+    "output": {
+      "name": "MacBook Pro 14",
+      "price": "$1403",
+      "category": "fitness",
+      "manufacturer": "Sony"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Google Pixel 7</h2><span class='price'>$1194</span><span class='category'>fitness</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Google Pixel 7",
+      "price": "$1194",
+      "category": "fitness",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Dell XPS 13</h2><span class='price'>$454</span><span class='category'>audio</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Dell XPS 13",
+      "price": "$454",
+      "category": "audio",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nikon Z6 II</h2><span class='price'>$1246</span><span class='category'>drones</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "Nikon Z6 II",
+      "price": "$1246",
+      "category": "drones",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Samsung Galaxy S23</h2><span class='price'>$2004</span><span class='category'>laptops</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Samsung Galaxy S23",
+      "price": "$2004",
+      "category": "laptops",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Apple Watch</h2><span class='price'>$1194</span><span class='category'>fitness</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Apple Watch",
+      "price": "$1194",
+      "category": "fitness",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Logitech MX Master 3</h2><span class='price'>$563</span><span class='category'>electronics</span><span class='brand'>Samsung</span></div>",
+    "output": {
+      "name": "Logitech MX Master 3",
+      "price": "$563",
+      "category": "electronics",
+      "manufacturer": "Samsung"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>DJI Mini 3 Pro</h2><span class='price'>$1688</span><span class='category'>smartphones</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "DJI Mini 3 Pro",
+      "price": "$1688",
+      "category": "smartphones",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nintendo Switch</h2><span class='price'>$2061</span><span class='category'>drones</span><span class='brand'>Amazon</span></div>",
+    "output": {
+      "name": "Nintendo Switch",
+      "price": "$2061",
+      "category": "drones",
+      "manufacturer": "Amazon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nikon Z6 II</h2><span class='price'>$453</span><span class='category'>gaming</span><span class='brand'>HP</span></div>",
+    "output": {
+      "name": "Nikon Z6 II",
+      "price": "$453",
+      "category": "gaming",
+      "manufacturer": "HP"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>HP Envy 15</h2><span class='price'>$979</span><span class='category'>laptops</span><span class='brand'>Asus</span></div>",
+    "output": {
+      "name": "HP Envy 15",
+      "price": "$979",
+      "category": "laptops",
+      "manufacturer": "Asus"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Dell XPS 13</h2><span class='price'>$2389</span><span class='category'>cameras</span><span class='brand'>Canon</span></div>",
+    "output": {
+      "name": "Dell XPS 13",
+      "price": "$2389",
+      "category": "cameras",
+      "manufacturer": "Canon"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Nikon Z6 II</h2><span class='price'>$1002</span><span class='category'>audio</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Nikon Z6 II",
+      "price": "$1002",
+      "category": "audio",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Kindle Paperwhite</h2><span class='price'>$1576</span><span class='category'>drones</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Kindle Paperwhite",
+      "price": "$1576",
+      "category": "drones",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Razer DeathAdder V2</h2><span class='price'>$2389</span><span class='category'>fitness</span><span class='brand'>Google</span></div>",
+    "output": {
+      "name": "Razer DeathAdder V2",
+      "price": "$2389",
+      "category": "fitness",
+      "manufacturer": "Google"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>Kindle Paperwhite</h2><span class='price'>$915</span><span class='category'>smartphones</span><span class='brand'>Dell</span></div>",
+    "output": {
+      "name": "Kindle Paperwhite",
+      "price": "$915",
+      "category": "smartphones",
+      "manufacturer": "Dell"
+    }
+  },
+  {
+    "input": "Extract the product information:\n<div class='product'><h2>DJI Mini 3 Pro</h2><span class='price'>$2389</span><span class='category'>gaming</span><span class='brand'>Apple</span></div>",
+    "output": {
+      "name": "DJI Mini 3 Pro",
+      "price": "$2389",
+      "category": "gaming",
+      "manufacturer": "Apple"
+    }
+  }
+]
