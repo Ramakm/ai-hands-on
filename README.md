@@ -97,8 +97,10 @@ For a recommended step-by-step progression through the materials, see the Learni
 ## Requirements
 
 Install dependencies with:
+
 ```bash
 pip install -r requirements.txt
+
 Some subfolders (for example 5.RAG/ and 6.OCR/) include their own requirements.txt with additional dependencies.
 
 Usage
@@ -118,13 +120,11 @@ Work through notebooks in order:
 Explore the additional practical sections:
 5.RAG/
 6.OCR/
-
 Fine-Tuning/
 YoutubeMCP/
 Brazil-Ecommerce-Data-Analysis/
 Resources
-
-##Basic ML Model Implementation (Supervised + Un-supervised + RL)
+Basic ML Model Implementation (Supervised + Un-supervised + RL)
 1.Linear Regression
 2.Logistic Regression
 3.Decision Tree Model
@@ -158,41 +158,28 @@ How RAG Enhances LLMs	RAG	https://awesomeneuron.substack.com/p/how-rag-enhances-
 Visual Guide to AI Agents	AI Agents	https://awesomeneuron.substack.com/p/a-visual-guide-to-ai-agents
 Contributors
 
-## Contributors
-
 This repository is built and improved by contributors from the AI/ML community.
 
-- **Ramakm** — Project creator and maintainer
-- **analyticalrohit** — RAG and AI Agents resources
-- **mosabami** — AI/ML course references
-- **octo-patch** — Cloud LLM provider support and model updates
-- **lucaszhu-hue** — Atlas Cloud model pool contribution
-- **AtomicHalifax** — README documentation and repository organization
-- **Claude** — Contributor
+Ramakm — Project creator and maintainer
+analyticalrohit — RAG and AI Agents resources
+mosabami — AI/ML course references
+octo-patch — Cloud LLM provider support and model updates
+lucaszhu-hue — Atlas Cloud model pool contribution
+AtomicHalifax — README documentation and repository organization
+Claude — Contributor
 
-If you'd like to contribute, check the [Contributing](#contributing) section below.
+If you'd like to contribute, check the Contributing section below.
 
 Contributing
 
 Contributions are welcome!
 
-##Please ensure:
+Please ensure:
 
-##Notebooks are clean (Restart & Run All before committing)
+Notebooks are clean (Restart & Run All before committing)
 Existing structure & naming conventions are followed
 PRs are focused, readable, and documented
 In folders like RAG and OCR, please maintain the cleaned structure part
-
 If you want to add something new folders, make it proper structure way.
 License
-
-##This project is licensed under the MIT License. See LICENSE for details.
-
-## Connect with me
-
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/techwith_ram)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/techwith.ram)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ramakm)
-
-
-
+This project is licensed under the MIT License. See LICENSE for details.
