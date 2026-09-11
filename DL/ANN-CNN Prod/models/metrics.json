@@ -1,0 +1,42 @@
+{
+  "ann": {
+    "test_accuracy": 0.8806999921798706,
+    "test_error_rate": 0.1193000078201294,
+    "test_loss": 0.3396743834018707,
+    "train_accuracy": 0.9104999899864197,
+    "val_accuracy": 0.8891666531562805,
+    "per_class_accuracy": {
+      "T-shirt/top": 0.82,
+      "Trouser": 0.968,
+      "Pullover": 0.79,
+      "Dress": 0.922,
+      "Coat": 0.808,
+      "Sandal": 0.946,
+      "Shirt": 0.679,
+      "Sneaker": 0.967,
+      "Bag": 0.953,
+      "Ankle boot": 0.954
+    },
+    "params": 109386
+  },
+  "cnn": {
+    "test_accuracy": 0.906499981880188,
+    "test_error_rate": 0.09350001811981201,
+    "test_loss": 0.26365983486175537,
+    "train_accuracy": 0.923037052154541,
+    "val_accuracy": 0.9079999923706055,
+    "per_class_accuracy": {
+      "T-shirt/top": 0.867,
+      "Trouser": 0.978,
+      "Pullover": 0.862,
+      "Dress": 0.906,
+      "Coat": 0.887,
+      "Sandal": 0.947,
+      "Shirt": 0.7,
+      "Sneaker": 0.979,
+      "Bag": 0.977,
+      "Ankle boot": 0.962
+    },
+    "params": 93322
+  }
+}

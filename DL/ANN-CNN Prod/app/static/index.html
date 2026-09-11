@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fashion-MNIST: ANN vs CNN</title>
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --ink:#1d2433; --muted:#6b7385; --line:#e3e6ec; --ann:#3b6fd8; --cnn:#1f9d74; --bad:#d64545; }
+  * { box-sizing: border-box; }
+  body { margin:0; font:15px/1.5 system-ui, sans-serif; background:var(--bg); color:var(--ink); padding:24px 16px; }
+  main { max-width: 960px; margin: 0 auto; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  p.sub { color: var(--muted); margin: 0 0 20px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 16px; }
+  form { display: flex; flex-wrap: wrap; gap: 12px; align-items: end; }
+  label { display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: var(--muted); }
+  input, select, button { font: inherit; padding: 8px 10px; border: 1px solid var(--line); border-radius: 6px; }
+  button { background: var(--ink); color: #fff; border: 0; cursor: pointer; padding: 9px 18px; }
+  button:disabled { opacity: .5; cursor: wait; }
+  .images { display: flex; gap: 16px; margin-top: 16px; flex-wrap: wrap; }
+  .images figure { margin: 0; text-align: center; font-size: 12px; color: var(--muted); }
+  .images img { width: 112px; height: 112px; object-fit: contain; border: 1px solid var(--line); border-radius: 6px; background: #000; image-rendering: pixelated; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin-top: 16px; }
+  .model h2 { margin: 0 0 8px; font-size: 16px; }
+  .ann h2 { color: var(--ann); } .cnn h2 { color: var(--cnn); }
+  .pred { font-size: 22px; font-weight: 600; }
+  .stats { display: grid; grid-template-columns: 1fr auto; gap: 2px 12px; font-size: 13px; margin: 10px 0; }
+  .stats span:nth-child(odd) { color: var(--muted); }
+  .bar { display: grid; grid-template-columns: 90px 1fr 48px; gap: 8px; align-items: center; font-size: 12px; margin: 3px 0; }
+  .bar div { height: 8px; background: var(--line); border-radius: 4px; overflow: hidden; }
+  .bar i { display: block; height: 100%; }
+  .ann .bar i { background: var(--ann); } .cnn .bar i { background: var(--cnn); }
+  .ok { color: var(--cnn); } .no { color: var(--bad); }
+  .err { color: var(--bad); margin-top: 12px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Fashion-MNIST classifier: ANN vs CNN</h1>
+  <p class="sub">Upload a clothing image. Both models predict its class, with confidence, error, and their accuracy on the test set.</p>
+
+  <div class="card">
+    <form id="f">
+      <label>Image <input type="file" name="file" accept="image/*" required></label>
+      <label>True label (optional)
+        <select name="true_label" id="tl"><option value="">— unknown —</option></select>
+      </label>
+      <button id="go">Predict</button>
+    </form>
+    <div class="images" id="imgs" hidden>
+      <figure><img id="orig" alt=""><figcaption>Uploaded</figcaption></figure>
+      <figure><img id="pre" alt=""><figcaption>Model input (28×28)</figcaption></figure>
+    </div>
+    <div class="err" id="err" hidden></div>
+  </div>
+
+  <div class="grid" id="out"></div>
+</main>
+<script>
+const CLASSES = ["T-shirt/top","Trouser","Pullover","Dress","Coat","Sandal","Shirt","Sneaker","Bag","Ankle boot"];
+const tl = document.getElementById('tl');
+CLASSES.forEach((c, i) => tl.add(new Option(c, i)));
+const pct = v => v == null ? '—' : (v * 100).toFixed(2) + '%';
+const esc = s => String(s).replace(/[&<>"]/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch]));
+
+function card(r, key) {
+  const bars = Object.entries(r.probabilities).sort((a, b) => b[1] - a[1]).map(([c, p]) =>
+    `<div class="bar"><span>${esc(c)}</span><div><i style="width:${p * 100}%"></i></div><span>${pct(p)}</span></div>`).join('');
+  const truth = r.true_class == null ? '' : `
+    <span>True class</span><span>${esc(r.true_class)}</span>
+    <span>Result</span><span class="${r.correct ? 'ok' : 'no'}">${r.correct ? 'Correct' : 'Wrong'}</span>
+    <span>Cross-entropy loss</span><span>${r.cross_entropy_loss.toFixed(4)}</span>`;
+  return `<div class="card model ${key}">
+    <h2>${r.model}</h2>
+    <div class="pred">${esc(r.predicted_class)}</div>
+    <div class="stats">
+      <span>Confidence</span><span>${pct(r.confidence)}</span>
+      <span>Prediction error (1 − confidence)</span><span>${pct(r.prediction_error)}</span>
+      ${truth}
+      <span>Model test accuracy</span><span>${pct(r.model_test_accuracy)}</span>
+      <span>Model test error rate</span><span>${pct(r.model_test_error_rate)}</span>
+      <span>Model test loss</span><span>${r.model_test_loss == null ? '—' : r.model_test_loss.toFixed(4)}</span>
+      <span>Test accuracy on "${esc(r.predicted_class)}"</span><span>${pct(r.class_accuracy_on_test_set)}</span>
+    </div>
+    ${bars}
+  </div>`;
+}
+
+document.getElementById('f').addEventListener('submit', async e => {
+  e.preventDefault();
+  const fd = new FormData(e.target), btn = document.getElementById('go'), err = document.getElementById('err');
+  err.hidden = true; btn.disabled = true;
+  document.getElementById('orig').src = URL.createObjectURL(fd.get('file'));
+  try {
+    const res = await fetch('/predict', { method: 'POST', body: fd });
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.detail?.[0]?.msg || data.detail || res.statusText);
+    document.getElementById('pre').src = data.preprocessed_image;
+    document.getElementById('imgs').hidden = false;
+    document.getElementById('out').innerHTML = card(data.ann, 'ann') + card(data.cnn, 'cnn');
+  } catch (ex) {
+    err.textContent = 'Error: ' + ex.message; err.hidden = false;
+  } finally { btn.disabled = false; }
+});
+</script>
+</body>
+</html>
