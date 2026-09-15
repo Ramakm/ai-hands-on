@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RNN vs LSTM</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div>
+    <h1>RNN <span class="vs">vs</span> LSTM</h1>
+    <p class="sub">Two NumPy-from-scratch sequence models read the same 8×8 digit, one row per timestep.</p>
+  </div>
+  <div id="health" class="health" role="status">connecting…</div>
+</header>
+
+<main>
+  <div id="error" class="error" hidden></div>
+
+  <section class="workbench">
+    <!-- ---------------- input ---------------- -->
+    <div class="panel input-panel">
+      <div class="panel-head">
+        <h2>Input</h2>
+        <span id="input-source" class="muted small"></span>
+      </div>
+
+      <div class="pad-wrap">
+        <canvas id="pad" width="280" height="280" aria-label="Drawing pad"></canvas>
+        <div id="pad-hint" class="pad-hint">Draw a digit 0–9</div>
+      </div>
+
+      <div class="toolbar">
+        <div class="segmented" role="group" aria-label="Brush">
+          <button type="button" data-mode="draw" class="active">Draw</button>
+          <button type="button" data-mode="erase">Erase</button>
+        </div>
+        <button type="button" id="clear">Clear</button>
+      </div>
+
+      <div class="toolbar">
+        <button type="button" id="random" class="primary">Random test digit</button>
+        <select id="digit" aria-label="Digit to sample">
+          <option value="">any</option>
+          <option>0</option><option>1</option><option>2</option><option>3</option><option>4</option>
+          <option>5</option><option>6</option><option>7</option><option>8</option><option>9</option>
+        </select>
+      </div>
+
+      <div class="toolbar transforms" aria-label="Transform input">
+        <button type="button" data-shift="0,-1" title="Shift left">←</button>
+        <button type="button" data-shift="0,1" title="Shift right">→</button>
+        <button type="button" data-shift="-1,0" title="Shift up">↑</button>
+        <button type="button" data-shift="1,0" title="Shift down">↓</button>
+        <button type="button" id="noise" title="Add random noise">Noise</button>
+        <button type="button" id="flip" title="Reverse the row order (reverse time)">Reverse rows</button>
+      </div>
+
+      <label class="check">
+        <input type="checkbox" id="center" checked>
+        Auto-center &amp; scale strokes, like the training data
+      </label>
+
+      <h3>What the models see</h3>
+      <div class="seq">
+        <div class="row-labels" aria-hidden="true">
+          <span>t1</span><span>t2</span><span>t3</span><span>t4</span><span>t5</span><span>t6</span><span>t7</span><span>t8</span>
+        </div>
+        <canvas id="preview" width="160" height="160" aria-label="8 by 8 model input"></canvas>
+        <p class="muted small">Each row is one timestep <i>x<sub>t</sub></i> ∈ ℝ<sup>8</sup>, fed top → bottom. The prediction is read from the state after row 8.</p>
+      </div>
+    </div>
+
+    <!-- ---------------- results ---------------- -->
+    <div class="results">
+      <div id="banner" class="banner">Load a test digit or draw one.</div>
+
+      <div class="cards">
+        <article class="card" id="card-rnn" data-model="rnn"></article>
+        <article class="card" id="card-lstm" data-model="lstm"></article>
+      </div>
+
+      <div class="panel">
+        <div class="panel-head">
+          <h2>Confidence while reading, row by row</h2>
+        </div>
+        <p id="steps-caption" class="muted small"></p>
+        <div class="legend">
+          <span class="key"><i class="sw rnn"></i>RNN</span>
+          <span class="key"><i class="sw lstm"></i>LSTM</span>
+        </div>
+        <div id="steps-chart" class="chart"></div>
+        <details><summary>Data table</summary><div id="steps-table" class="table-wrap"></div></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------------- test set ---------------- -->
+  <section class="panel">
+    <div class="panel-head">
+      <h2>Held-out test set</h2>
+      <span id="test-meta" class="muted small"></span>
+    </div>
+    <div id="tiles" class="tiles"></div>
+
+    <div class="charts-2">
+      <div>
+        <h3>Training loss</h3>
+        <div class="legend">
+          <span class="key"><i class="sw rnn"></i>RNN</span>
+          <span class="key"><i class="sw lstm"></i>LSTM</span>
+        </div>
+        <div id="loss-chart" class="chart"></div>
+        <details><summary>Data table</summary><div id="loss-table" class="table-wrap"></div></details>
+      </div>
+      <div>
+        <h3>Test accuracy</h3>
+        <div class="legend">
+          <span class="key"><i class="sw rnn"></i>RNN</span>
+          <span class="key"><i class="sw lstm"></i>LSTM</span>
+        </div>
+        <div id="acc-chart" class="chart"></div>
+        <details><summary>Data table</summary><div id="acc-table" class="table-wrap"></div></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head">
+      <h2>Where they fail</h2>
+      <span class="muted small">Every test digit at least one model gets wrong. Click one to compare.</span>
+    </div>
+    <div id="gallery" class="gallery"></div>
+  </section>
+
+  <footer class="muted small">
+    API: <a href="/docs">/docs</a> · models trained with identical data split, seeds, batches and learning rate.
+  </footer>
+</main>
+
+<div id="tip" class="tip" hidden></div>
+<script src="app.js"></script>
+</body>
+</html>
