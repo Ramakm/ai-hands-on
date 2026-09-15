@@ -4,6 +4,9 @@ A vanilla RNN and an LSTM written by hand in NumPy (forward pass, BPTT, Adam),
 trained on the scikit-learn `digits` dataset read one row per timestep, and
 served side by side through a FastAPI app with a web UI.
 
+<img width="905" height="665" alt="image" src="https://github.com/user-attachments/assets/6a1697a4-24a2-43b8-8781-7389db6064dc" />
+
+
 ```bash
 ./start.sh                # venv + train (if needed) + serve -> http://127.0.0.1:8000
 ```
