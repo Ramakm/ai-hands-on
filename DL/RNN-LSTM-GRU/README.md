@@ -3,6 +3,8 @@
 Production version of `HAR_RNN_LSTM_GRU.ipynb` — trains all 3 recurrent models on the
 UCI HAR (smartphone sensor) dataset, serves predictions via FastAPI, and lets you query
 any test sample from a Streamlit UI.
+<img width="1173" height="626" alt="image" src="https://github.com/user-attachments/assets/03b9fc19-587c-4bd0-ad8c-7b8a93545b96" />
+
 
 ## Structure
 - `backend/config.py` — paths and hyperparameters
